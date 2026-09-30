@@ -1,0 +1,6 @@
+profit_rank,region,net_revenue,net_profit,transaction_count,negative_quantity_rows,profit_margin_pct
+1,North,7563115.58,1717438.39,6341,3,22.71
+2,South,7378774.62,1697076.39,6217,5,23.0
+3,East,7349166.59,1696296.06,6271,3,23.08
+4,West,5775165.96,1328939.62,4938,3,23.01
+5,Central,1419151.08,316866.0,1223,1,22.33

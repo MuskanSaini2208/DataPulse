@@ -1,0 +1,2011 @@
+customer_id,customer_name,gender,age,customer_segment,signup_date
+C00001,Customer 1,Female,33,Corporate,2024-09-04
+C00002,Customer 2,Male,58,Consumer,2024-06-08
+C00003,Customer 3,Female,19,Consumer,2025-01-14
+C00004,Customer 4,Female,39,Corporate,2025-04-28
+C00005,Customer 5,Male,56,Consumer,2024-07-09
+C00006,Customer 6,Female,63,Corporate,2025-07-13
+C00007,Customer 7,Female,30,Consumer,2025-04-11
+C00008,Customer 8,Female,49,Consumer,2024-05-01
+C00009,Customer 9,Male,27,Consumer,2025-11-16
+C00010,Customer 10,Male,23,Corporate,2024-02-02
+C00011,Customer 11,Male,34,Consumer,2025-04-22
+C00012,Customer 12,Female,60,Small Business,2024-11-16
+C00013,Customer 13,Female,51,Corporate,2025-04-22
+C00014,Customer 14,Female,41,Corporate,2025-07-19
+C00015,Customer 15,Male,31,Consumer,2025-05-16
+C00016,Customer 16,Male,24,Corporate,2025-04-20
+C00017,Customer 17,Female,30,Small Business,2025-09-05
+C00018,Customer 18,Male,25,Consumer,2025-05-27
+C00019,Customer 19,Female,26,Consumer,2025-08-17
+C00020,Customer 20,Female,51,Consumer,2024-10-21
+C00021,Customer 21,Female,24,Consumer,2024-05-28
+C00022,Customer 22,Male,20,Corporate,2024-06-20
+C00023,Customer 23,Female,44,Consumer,2025-03-22
+C00024,Customer 24,Female,31,Consumer,2025-01-23
+C00025,Customer 25,Female,39,Consumer,2024-02-26
+C00026,Customer 26,Male,24,Consumer,2024-05-29
+C00027,Customer 27,Male,28,Consumer,2025-12-07
+C00028,Customer 28,Male,39,Small Business,2025-06-14
+C00029,Customer 29,Male,51,Consumer,2025-07-05
+C00030,Customer 30,Female,37,Consumer,2024-05-23
+C00031,Customer 31,Female,44,Corporate,2024-02-16
+C00032,Customer 32,Female,43,Consumer,2024-07-31
+C00033,Customer 33,Male,30,Consumer,2025-09-17
+C00034,Customer 34,Male,31,Consumer,2025-01-04
+C00035,Customer 35,Male,38,Small Business,2025-07-26
+C00036,Customer 36,Male,19,Corporate,2024-12-21
+C00037,Customer 37,Male,50,Consumer,2024-12-23
+C00038,Customer 38,Male,47,Consumer,2025-03-14
+C00039,Customer 39,Male,32,Consumer,2025-12-01
+C00040,Customer 40,Female,35,Corporate,2024-11-15
+C00041,Customer 41,Male,33,Consumer,2025-03-10
+C00042,Customer 42,Female,49,Small Business,2025-11-02
+C00043,Customer 43,Female,54,Corporate,2024-09-28
+C00044,Customer 44,Male,23,Consumer,2025-09-05
+C00045,Customer 45,Female,37,Corporate,2025-01-25
+C00046,Customer 46,Female,18,Small Business,2025-10-03
+C00047,Customer 47,Male,39,Consumer,2024-12-07
+C00048,Customer 48,Male,29,Corporate,2025-04-04
+C00049,Customer 49,Female,34,Small Business,2024-08-23
+C00050,Customer 50,Male,39,Consumer,2025-04-08
+C00051,Customer 51,Male,33,Small Business,2024-08-26
+C00052,Customer 52,Male,36,Consumer,2025-03-20
+C00053,Customer 53,Female,54,Corporate,2025-07-29
+C00054,Customer 54,Female,56,Corporate,2024-11-13
+C00055,Customer 55,Female,18,Consumer,2024-11-09
+C00056,Customer 56,Female,36,Consumer,2024-08-23
+C00057,Customer 57,Male,58,Consumer,2025-06-17
+C00058,Customer 58,Female,43,Consumer,2025-03-08
+C00059,Customer 59,Male,27,Consumer,2025-01-12
+C00060,Customer 60,Male,46,Consumer,2024-01-19
+C00061,Customer 61,Female,24,Consumer,2024-03-21
+C00062,Customer 62,Male,19,Consumer,2024-01-06
+C00063,Customer 63,Female,48,Consumer,2025-09-12
+C00064,Customer 64,Female,42,Small Business,2025-09-13
+C00065,Customer 65,Female,54,Consumer,2024-02-19
+C00066,Customer 66,Female,34,Consumer,2024-02-03
+C00067,Customer 67,Female,59,Consumer,2025-07-24
+C00068,Customer 68,Male,38,Consumer,2025-01-18
+C00069,Customer 69,Male,53,Corporate,2024-08-13
+C00070,Customer 70,Male,22,Consumer,2025-03-24
+C00071,Customer 71,Male,22,Consumer,2024-06-21
+C00072,Customer 72,Male,55,Small Business,2024-05-24
+C00073,Customer 73,Female,58,Corporate,2024-09-25
+C00074,Customer 74,Male,63,Corporate,2025-10-15
+C00075,Customer 75,Male,33,Small Business,2025-07-14
+C00076,Customer 76,Male,19,Small Business,2024-05-18
+C00077,Customer 77,Male,65,Consumer,2025-02-14
+C00078,Customer 78,Female,46,Consumer,2025-10-07
+C00079,Customer 79,Female,29,Consumer,2025-11-25
+C00080,Customer 80,Female,54,Consumer,2025-07-10
+C00081,Customer 81,Female,61,Consumer,2024-04-04
+C00082,Customer 82,Male,31,Consumer,2024-06-24
+C00083,Customer 83,Female,54,Corporate,2024-06-08
+C00084,Customer 84,Male,55,Corporate,2024-04-20
+C00085,Customer 85,Male,42,Corporate,2024-05-07
+C00086,Customer 86,Male,48,Consumer,2024-08-18
+C00087,Customer 87,Female,30,Consumer,2025-02-09
+C00088,Customer 88,Male,62,Consumer,2024-10-17
+C00089,Customer 89,Male,65,Consumer,2024-11-03
+C00090,Customer 90,Male,65,Small Business,2024-06-28
+C00091,Customer 91,Male,53,Small Business,2024-04-20
+C00092,Customer 92,Female,20,Small Business,2025-12-30
+C00093,Customer 93,Male,35,Small Business,2025-03-13
+C00094,Customer 94,Male,39,Small Business,2024-06-16
+C00095,Customer 95,Male,64,Consumer,2025-08-14
+C00096,Customer 96,Female,44,Consumer,2025-08-29
+C00097,Customer 97,Male,43,Consumer,2025-12-06
+C00098,Customer 98,Male,25,Consumer,2024-04-26
+C00099,Customer 99,Male,56,Consumer,2025-04-12
+C00100,Customer 100,Female,34,Consumer,2025-12-16
+C00101,Customer 101,Female,22,Small Business,2025-08-11
+C00102,Customer 102,Female,65,Consumer,2024-06-13
+C00103,Customer 103,Male,27,Small Business,2025-10-13
+C00104,Customer 104,Female,18,Corporate,2024-11-03
+C00105,Customer 105,Female,21,Corporate,2024-12-22
+C00106,Customer 106,Female,39,Corporate,2025-02-11
+C00107,Customer 107,Male,22,Consumer,2025-07-17
+C00108,Customer 108,Male,58,Corporate,2024-03-28
+C00109,Customer 109,Male,42,Consumer,2025-01-28
+C00110,Customer 110,Female,33,Small Business,2025-08-19
+C00111,Customer 111,Male,18,Consumer,2025-02-04
+C00112,Customer 112,Male,41,Consumer,2024-07-19
+C00113,Customer 113,Male,25,Corporate,2024-02-11
+C00114,Customer 114,Female,64,Corporate,2025-02-04
+C00115,Customer 115,Male,31,Consumer,2025-05-28
+C00116,Customer 116,Female,40,Corporate,2025-02-05
+C00117,Customer 117,Female,18,Consumer,2025-12-15
+C00118,Customer 118,Female,24,Corporate,2025-03-15
+C00119,Customer 119,Male,27,Consumer,2025-01-06
+C00120,Customer 120,Female,20,Consumer,2024-02-10
+C00121,Customer 121,Female,52,Consumer,2025-02-11
+C00122,Customer 122,Female,63,Consumer,2024-05-03
+C00123,Customer 123,Male,65,Consumer,2025-06-13
+C00124,Customer 124,Male,30,Consumer,2024-04-27
+C00125,Customer 125,Male,55,Consumer,2025-10-23
+C00126,Customer 126,Male,42,Consumer,2024-08-08
+C00127,Customer 127,Male,20,Consumer,2024-11-12
+C00128,Customer 128,Male,22,Consumer,2024-04-15
+C00129,Customer 129,Male,44,Corporate,2024-06-02
+C00130,Customer 130,Female,38,Small Business,2025-11-04
+C00131,Customer 131,Male,18,Consumer,2024-07-26
+C00132,Customer 132,Female,62,Small Business,2025-01-09
+C00133,Customer 133,Female,53,Consumer,2025-12-17
+C00134,Customer 134,Male,42,Consumer,2025-03-31
+C00135,Customer 135,Female,65,Corporate,2024-01-31
+C00136,Customer 136,Male,64,Corporate,2024-09-17
+C00137,Customer 137,Female,64,Corporate,2024-10-09
+C00138,Customer 138,Male,30,Consumer,2024-07-20
+C00139,Customer 139,Female,60,Corporate,2024-06-25
+C00140,Customer 140,Male,42,Consumer,2025-01-02
+C00141,Customer 141,Male,52,Consumer,2024-10-02
+C00142,Customer 142,Male,59,Consumer,2024-08-02
+C00143,Customer 143,Female,25,Small Business,2024-10-28
+C00144,Customer 144,Female,39,Consumer,2024-09-07
+C00145,Customer 145,Male,24,Corporate,2024-06-15
+C00146,Customer 146,Male,31,Corporate,2024-11-26
+C00147,Customer 147,Male,37,Corporate,2025-11-18
+C00148,Customer 148,Female,59,Corporate,2025-01-04
+C00149,Customer 149,Male,59,Small Business,2025-03-12
+C00150,Customer 150,Male,36,Consumer,2025-12-19
+C00151,Customer 151,Female,33,Consumer,2025-03-23
+C00152,Customer 152,Female,43,Consumer,2024-06-12
+C00153,Customer 153,Male,61,Consumer,2024-10-17
+C00154,Customer 154,Female,64,Consumer,2024-12-22
+C00155,Customer 155,Male,28,Consumer,2024-12-12
+C00156,Customer 156,Female,26,Consumer,2024-04-19
+C00157,Customer 157,Male,51,Consumer,2024-03-18
+C00158,Customer 158,Female,32,Consumer,2024-09-12
+C00159,Customer 159,Female,27,Small Business,2025-10-29
+C00160,Customer 160,Female,19,Consumer,2025-06-07
+C00161,Customer 161,Male,37,Small Business,2025-09-06
+C00162,Customer 162,Female,36,Small Business,2024-05-07
+C00163,Customer 163,Male,45,Consumer,2024-10-29
+C00164,Customer 164,Male,27,Corporate,2025-02-28
+C00165,Customer 165,Female,52,Consumer,2024-11-13
+C00166,Customer 166,Male,50,Corporate,2024-10-31
+C00167,Customer 167,Female,40,Consumer,2024-09-19
+C00168,Customer 168,Female,26,Consumer,2024-02-07
+C00169,Customer 169,Male,42,Consumer,2025-09-17
+C00170,Customer 170,Female,50,Consumer,2025-11-12
+C00171,Customer 171,Male,35,Small Business,2024-02-29
+C00172,Customer 172,Male,30,Corporate,2024-10-28
+C00173,Customer 173,Male,42,Corporate,2025-01-13
+C00174,Customer 174,Female,35,Small Business,2025-07-26
+C00175,Customer 175,Male,37,Corporate,2025-12-21
+C00176,Customer 176,Male,34,Consumer,2024-10-30
+C00177,Customer 177,Male,32,Small Business,2025-06-30
+C00178,Customer 178,Other,52,Consumer,2025-11-15
+C00179,Customer 179,Female,40,Consumer,2025-08-29
+C00180,Customer 180,Female,40,Consumer,2024-07-31
+C00181,Customer 181,Female,49,Small Business,2025-08-19
+C00182,Customer 182,Female,35,Consumer,2024-10-27
+C00183,Customer 183,Male,22,Consumer,2024-01-13
+C00184,Customer 184,Male,58,Consumer,2025-07-07
+C00185,Customer 185,Female,20,Consumer,2025-09-01
+C00186,Customer 186,Female,45,Consumer,2024-09-07
+C00187,Customer 187,Male,30,Corporate,2024-11-25
+C00188,Customer 188,Male,28,Small Business,2024-09-22
+C00189,Customer 189,Female,20,Consumer,2024-03-26
+C00190,Customer 190,Male,61,Consumer,2025-12-27
+C00191,Customer 191,Female,38,Consumer,2024-01-17
+C00192,Customer 192,Male,34,Consumer,2025-02-09
+C00193,Customer 193,Male,53,Consumer,2024-01-11
+C00194,Customer 194,Female,19,Corporate,2025-05-18
+C00195,Customer 195,Male,45,Corporate,2025-10-19
+C00196,Customer 196,Male,41,Consumer,2025-04-14
+C00197,Customer 197,Female,44,Consumer,2025-03-18
+C00198,Customer 198,Female,23,Consumer,2025-08-27
+C00199,Customer 199,Male,63,Consumer,2025-12-12
+C00200,Customer 200,Male,29,Small Business,2025-09-21
+C00201,Customer 201,Female,50,Corporate,2024-06-17
+C00202,Customer 202,Female,53,Small Business,2025-02-15
+C00203,Customer 203,Male,34,Small Business,2025-08-20
+C00204,Customer 204,Male,24,Corporate,2024-08-03
+C00205,Customer 205,Male,32,Small Business,2025-05-07
+C00206,Customer 206,Male,56,Consumer,2024-01-17
+C00207,Customer 207,Male,61,Consumer,2025-10-02
+C00208,Customer 208,Female,62,Consumer,2025-03-24
+C00209,Customer 209,Male,28,Consumer,2025-06-26
+C00210,Customer 210,Male,47,Consumer,2025-08-25
+C00211,Customer 211,Female,25,Consumer,2024-06-08
+C00212,Customer 212,Female,52,Corporate,2024-11-24
+C00213,Customer 213,Male,37,Corporate,2025-09-18
+C00214,Customer 214,Female,52,Consumer,2024-04-30
+C00215,Customer 215,Female,50,Consumer,2025-08-23
+C00216,Customer 216,Female,65,Corporate,2024-07-29
+C00217,Customer 217,Male,41,Consumer,2025-02-24
+C00218,Customer 218,Male,34,Consumer,2025-01-07
+C00219,Customer 219,Female,43,Consumer,2025-05-16
+C00220,Customer 220,Male,25,Consumer,2025-09-02
+C00221,Customer 221,Male,23,Consumer,2024-09-11
+C00222,Customer 222,Male,42,Corporate,2024-05-05
+C00223,Customer 223,Female,57,Corporate,2024-11-04
+C00224,Customer 224,Female,43,Corporate,2025-03-22
+C00225,Customer 225,Male,55,Consumer,2025-07-01
+C00226,Customer 226,Female,26,Corporate,2025-07-03
+C00227,Customer 227,Male,39,Corporate,2024-09-05
+C00228,Customer 228,Female,47,Consumer,2025-11-14
+C00229,Customer 229,Female,34,Corporate,2024-03-01
+C00230,Customer 230,Male,18,Consumer,2024-03-26
+C00231,Customer 231,Male,21,Consumer,2024-01-19
+C00232,Customer 232,Male,62,Consumer,2025-11-07
+C00233,Customer 233,Female,47,Consumer,2024-05-11
+C00234,Customer 234,Female,30,Consumer,2025-03-15
+C00235,Customer 235,Female,30,Consumer,2025-08-16
+C00236,Customer 236,Female,19,Consumer,2025-07-13
+C00237,Customer 237,Male,63,Small Business,2025-11-23
+C00238,Customer 238,Female,23,Consumer,2024-02-09
+C00239,Customer 239,Male,54,Consumer,2024-10-24
+C00240,Customer 240,Male,29,Consumer,2025-01-04
+C00241,Customer 241,Female,34,Small Business,2025-05-23
+C00242,Customer 242,Female,31,Consumer,2025-03-30
+C00243,Customer 243,Male,57,Small Business,2025-02-12
+C00244,Customer 244,Female,19,Consumer,2024-08-11
+C00245,Customer 245,Female,34,Consumer,2024-03-18
+C00246,Customer 246,Female,31,Consumer,2024-11-11
+C00247,Customer 247,Female,31,Consumer,2024-07-08
+C00248,Customer 248,Male,27,Corporate,2025-02-08
+C00249,Customer 249,Male,61,Small Business,2025-08-04
+C00250,Customer 250,Male,36,Consumer,2025-02-07
+C00251,Customer 251,Female,38,Small Business,2025-03-01
+C00252,Customer 252,Female,36,Consumer,2024-01-31
+C00253,Customer 253,Male,65,Consumer,2025-04-15
+C00254,Customer 254,Male,34,Consumer,2024-11-16
+C00255,Customer 255,Male,34,Consumer,2024-03-31
+C00256,Customer 256,Female,33,Corporate,2024-06-05
+C00257,Customer 257,Female,33,Consumer,2025-07-23
+C00258,Customer 258,Male,22,Consumer,2025-10-31
+C00259,Customer 259,Male,47,Consumer,2025-01-05
+C00260,Customer 260,Female,19,Consumer,2025-12-13
+C00261,Customer 261,Male,28,Consumer,2024-05-11
+C00262,Customer 262,Female,27,Corporate,2024-08-06
+C00263,Customer 263,Male,31,Consumer,2025-11-09
+C00264,Customer 264,Male,54,Consumer,2024-05-07
+C00265,Customer 265,Female,46,Consumer,2025-04-26
+C00266,Customer 266,Male,65,Consumer,2024-06-09
+C00267,Customer 267,Male,34,Consumer,2024-08-29
+C00268,Customer 268,Male,62,Corporate,2024-12-14
+C00269,Customer 269,Male,20,Small Business,2024-09-19
+C00270,Customer 270,Male,42,Consumer,2025-09-30
+C00271,Customer 271,Male,56,Small Business,2025-12-11
+C00272,Customer 272,Male,43,Consumer,2024-12-31
+C00273,Customer 273,Male,62,Corporate,2025-01-18
+C00274,Customer 274,Female,33,Corporate,2024-02-10
+C00275,Customer 275,Female,19,Corporate,2024-06-19
+C00276,Customer 276,Male,55,Corporate,2024-01-30
+C00277,Customer 277,Male,21,Consumer,2025-09-17
+C00278,Customer 278,Male,54,Consumer,2024-06-14
+C00279,Customer 279,Female,53,Consumer,2024-09-05
+C00280,Customer 280,Female,58,Consumer,2025-09-07
+C00281,Customer 281,Male,40,Corporate,2025-06-04
+C00282,Customer 282,Male,60,Consumer,2025-03-29
+C00283,Customer 283,Male,26,Consumer,2024-01-29
+C00284,Customer 284,Male,38,Consumer,2025-02-14
+C00285,Customer 285,Female,23,Consumer,2025-02-13
+C00286,Customer 286,Male,54,Corporate,2024-08-20
+C00287,Customer 287,Male,52,Corporate,2025-06-27
+C00288,Customer 288,Male,56,Consumer,2025-11-09
+C00289,Customer 289,Female,54,Consumer,2024-07-08
+C00290,Customer 290,Male,32,Consumer,2024-08-29
+C00291,Customer 291,Female,21,Consumer,2024-08-23
+C00292,Customer 292,Male,62,Corporate,2025-09-01
+C00293,Customer 293,Female,41,Consumer,2024-02-26
+C00294,Customer 294,Male,22,Consumer,2025-10-16
+C00295,Customer 295,Female,62,Consumer,2025-07-19
+C00296,Customer 296,Female,65,Small Business,2024-12-18
+C00297,Customer 297,Female,39,Corporate,2025-03-01
+C00298,Customer 298,Female,54,Consumer,2025-10-14
+C00299,Customer 299,Female,19,Consumer,2025-07-15
+C00300,Customer 300,Female,22,Consumer,2024-07-21
+C00301,Customer 301,Female,31,Small Business,2024-02-06
+C00302,Customer 302,Male,49,Consumer,2025-04-25
+C00303,Customer 303,Female,24,Consumer,2024-04-16
+C00304,Customer 304,Male,19,Small Business,2024-03-05
+C00305,Customer 305,Female,50,Corporate,2025-12-18
+C00306,Customer 306,Male,54,Consumer,2024-12-11
+C00307,Customer 307,Male,53,Consumer,2025-04-20
+C00308,Customer 308,Female,56,Consumer,2024-06-07
+C00309,Customer 309,Male,56,Consumer,2024-03-15
+C00310,Customer 310,Male,46,Consumer,2024-02-15
+C00311,Customer 311,Male,42,Small Business,2024-09-15
+C00312,Customer 312,Male,59,Small Business,2024-01-03
+C00313,Customer 313,Male,34,Consumer,2024-11-02
+C00314,Customer 314,Male,22,Consumer,2024-08-25
+C00315,Customer 315,Male,54,Consumer,2025-01-19
+C00316,Customer 316,Male,31,Consumer,2025-03-06
+C00317,Customer 317,Male,64,Corporate,2024-08-13
+C00318,Customer 318,Female,37,Consumer,2024-11-28
+C00319,Customer 319,Male,58,Consumer,2024-02-27
+C00320,Customer 320,Female,20,Consumer,2024-08-08
+C00321,Customer 321,Female,49,Consumer,2025-12-15
+C00322,Customer 322,Male,39,Consumer,2025-12-24
+C00323,Customer 323,Male,40,Corporate,2024-12-20
+C00324,Customer 324,Female,30,Corporate,2025-11-16
+C00325,Customer 325,Female,64,Consumer,2024-12-31
+C00326,Customer 326,Female,36,Corporate,2024-04-01
+C00327,Customer 327,Female,58,Consumer,2025-09-25
+C00328,Customer 328,Female,38,Corporate,2024-10-30
+C00329,Customer 329,Female,20,Consumer,2025-03-23
+C00330,Customer 330,Male,60,Consumer,2025-04-18
+C00331,Customer 331,Female,26,Small Business,2024-08-12
+C00332,Customer 332,Male,30,Consumer,2025-06-19
+C00333,Customer 333,Female,59,Consumer,2024-12-31
+C00334,Customer 334,Female,60,Consumer,2024-09-24
+C00335,Customer 335,Male,62,Consumer,2024-08-05
+C00336,Customer 336,Female,38,Consumer,2025-06-28
+C00337,Customer 337,Male,54,Consumer,2024-07-01
+C00338,Customer 338,Female,33,Small Business,2024-03-31
+C00339,Customer 339,Male,53,Consumer,2025-10-05
+C00340,Customer 340,Female,42,Consumer,2024-08-30
+C00341,Customer 341,Male,20,Consumer,2025-04-12
+C00342,Customer 342,Female,38,Corporate,2025-06-06
+C00343,Customer 343,Female,40,Consumer,2025-09-03
+C00344,Customer 344,Female,30,Consumer,2025-04-01
+C00345,Customer 345,Female,35,Consumer,2025-05-31
+C00346,Customer 346,Female,42,Corporate,2025-09-03
+C00347,Customer 347,Female,20,Corporate,2025-11-19
+C00348,Customer 348,Male,25,Consumer,2024-02-04
+C00349,Customer 349,Female,54,Corporate,2025-06-26
+C00350,Customer 350,Male,34,Consumer,2024-05-07
+C00351,Customer 351,Female,47,Consumer,2025-10-12
+C00352,Customer 352,Male,45,Consumer,2024-02-05
+C00353,Customer 353,Female,44,Consumer,2024-06-29
+C00354,Customer 354,Female,37,Consumer,2024-05-20
+C00355,Customer 355,Male,41,Consumer,2025-03-16
+C00356,Customer 356,Female,57,Consumer,2024-01-04
+C00357,Customer 357,Female,64,Consumer,2024-01-13
+C00358,Customer 358,Female,30,Consumer,2025-01-03
+C00359,Customer 359,Male,50,Corporate,2025-12-10
+C00360,Customer 360,Female,64,Corporate,2025-01-20
+C00361,Customer 361,Female,18,Consumer,2024-11-21
+C00362,Customer 362,Male,55,Consumer,2025-04-25
+C00363,Customer 363,Male,41,Consumer,2025-02-06
+C00364,Customer 364,Male,64,Consumer,2024-10-07
+C00365,Customer 365,Female,45,Consumer,2025-03-05
+C00366,Customer 366,Male,58,Consumer,2024-01-03
+C00367,Customer 367,Female,25,Corporate,2024-06-27
+C00368,Customer 368,Female,24,Corporate,2025-05-06
+C00369,Customer 369,Male,62,Consumer,2024-09-06
+C00370,Customer 370,Female,43,Consumer,2024-02-09
+C00371,Customer 371,Female,44,Small Business,2024-03-31
+C00372,Customer 372,Male,26,Consumer,2025-09-24
+C00373,Customer 373,Male,28,Small Business,2024-08-28
+C00374,Customer 374,Male,57,Consumer,2024-01-17
+C00375,Customer 375,Male,32,Consumer,2025-06-16
+C00376,Customer 376,Male,46,Consumer,2025-01-22
+C00377,Customer 377,Female,33,Consumer,2024-11-25
+C00378,Customer 378,Male,30,Small Business,2025-10-15
+C00379,Customer 379,Male,25,Consumer,2024-08-17
+C00380,Customer 380,Female,62,Small Business,2025-02-21
+C00381,Customer 381,Female,63,Consumer,2025-06-27
+C00382,Customer 382,Female,23,Small Business,2025-03-20
+C00383,Customer 383,Female,34,Small Business,2024-05-31
+C00384,Customer 384,Male,45,Consumer,2025-05-12
+C00385,Customer 385,Male,36,Consumer,2025-06-26
+C00386,Customer 386,Other,52,Corporate,2024-03-30
+C00387,Customer 387,Female,30,Consumer,2024-04-30
+C00388,Customer 388,Female,20,Small Business,2025-05-07
+C00389,Customer 389,Male,34,Consumer,2024-03-27
+C00390,Customer 390,Female,46,Consumer,2025-10-04
+C00391,Customer 391,Female,26,Consumer,2024-03-20
+C00392,Customer 392,Male,57,Corporate,2025-12-12
+C00393,Customer 393,Female,18,Small Business,2025-05-05
+C00394,Customer 394,Female,21,Consumer,2024-11-19
+C00395,Customer 395,Male,42,Corporate,2024-07-14
+C00396,Customer 396,Male,42,Small Business,2024-09-08
+C00397,Customer 397,Female,32,Consumer,2025-06-30
+C00398,Customer 398,Male,30,Consumer,2025-07-03
+C00399,Customer 399,Male,21,Corporate,2024-06-01
+C00400,Customer 400,Male,49,Corporate,2025-01-31
+C00401,Customer 401,Male,36,Consumer,2025-12-25
+C00402,Customer 402,Female,23,Corporate,2024-07-06
+C00403,Customer 403,Female,37,Consumer,2025-05-21
+C00404,Customer 404,Male,62,Small Business,2024-05-05
+C00405,Customer 405,Other,30,Small Business,2025-08-31
+C00406,Customer 406,Female,60,Corporate,2024-05-04
+C00407,Customer 407,Male,30,Consumer,2024-08-05
+C00408,Customer 408,Female,26,Consumer,2024-12-01
+C00409,Customer 409,Male,30,Consumer,2024-09-27
+C00410,Customer 410,Other,33,Consumer,2024-05-04
+C00411,Customer 411,Female,23,Corporate,2025-04-12
+C00412,Customer 412,Female,46,Consumer,2024-01-15
+C00413,Customer 413,Male,34,Consumer,2025-12-18
+C00414,Customer 414,Female,52,Consumer,2024-02-08
+C00415,Customer 415,Male,41,Consumer,2024-08-31
+C00416,Customer 416,Male,39,Consumer,2025-11-09
+C00417,Customer 417,Male,40,Corporate,2024-04-23
+C00418,Customer 418,Female,25,Corporate,2024-02-23
+C00419,Customer 419,Male,52,Consumer,2025-06-27
+C00420,Customer 420,Female,22,Small Business,2024-02-23
+C00421,Customer 421,Female,52,Small Business,2025-10-18
+C00422,Customer 422,Male,65,Consumer,2024-11-25
+C00423,Customer 423,Male,54,Corporate,2025-09-26
+C00424,Customer 424,Male,39,Consumer,2024-06-27
+C00425,Customer 425,Female,33,Consumer,2024-04-13
+C00426,Customer 426,Female,59,Consumer,2025-12-03
+C00427,Customer 427,Male,30,Consumer,2025-07-10
+C00428,Customer 428,Female,41,Small Business,2025-10-27
+C00429,Customer 429,Male,55,Small Business,2024-08-21
+C00430,Customer 430,Female,62,Corporate,2024-10-22
+C00431,Customer 431,Female,62,Consumer,2025-02-25
+C00432,Customer 432,Female,22,Consumer,2024-11-23
+C00433,Customer 433,Female,61,Small Business,2024-06-26
+C00434,Customer 434,Female,23,Consumer,2024-09-30
+C00435,Customer 435,Male,46,Consumer,2025-03-20
+C00436,Customer 436,Male,62,Consumer,2024-01-28
+C00437,Customer 437,Male,49,Consumer,2024-09-02
+C00438,Customer 438,Male,63,Consumer,2024-08-01
+C00439,Customer 439,Female,34,Consumer,2024-02-21
+C00440,Customer 440,Female,33,Consumer,2024-03-30
+C00441,Customer 441,Female,33,Consumer,2024-12-27
+C00442,Customer 442,Male,35,Consumer,2024-03-15
+C00443,Customer 443,Female,50,Consumer,2024-09-08
+C00444,Customer 444,Male,39,Consumer,2025-02-13
+C00445,Customer 445,Male,53,Small Business,2025-09-29
+C00446,Customer 446,Female,37,Consumer,2024-03-13
+C00447,Customer 447,Other,32,Corporate,2024-11-13
+C00448,Customer 448,Female,27,Corporate,2024-03-16
+C00449,Customer 449,Male,44,Consumer,2024-11-08
+C00450,Customer 450,Female,61,Corporate,2024-12-16
+C00451,Customer 451,Male,59,Corporate,2025-08-06
+C00452,Customer 452,Female,30,Consumer,2024-11-18
+C00453,Customer 453,Female,40,Consumer,2025-11-13
+C00454,Customer 454,Male,51,Consumer,2024-04-10
+C00455,Customer 455,Male,47,Small Business,2024-02-08
+C00456,Customer 456,Male,21,Corporate,2024-01-04
+C00457,Customer 457,Other,46,Small Business,2024-09-17
+C00458,Customer 458,Male,19,Small Business,2024-05-20
+C00459,Customer 459,Female,23,Consumer,2024-03-07
+C00460,Customer 460,Female,49,Corporate,2024-06-21
+C00461,Customer 461,Female,22,Consumer,2025-12-12
+C00462,Customer 462,Male,34,Corporate,2025-08-07
+C00463,Customer 463,Female,46,Consumer,2024-01-14
+C00464,Customer 464,Male,49,Consumer,2025-10-30
+C00465,Customer 465,Female,39,Corporate,2024-05-29
+C00466,Customer 466,Female,22,Corporate,2024-10-23
+C00467,Customer 467,Female,56,Consumer,2024-08-27
+C00468,Customer 468,Female,63,Consumer,2024-10-22
+C00469,Customer 469,Male,60,Consumer,2025-07-09
+C00470,Customer 470,Male,53,Small Business,2025-06-04
+C00471,Customer 471,Male,37,Consumer,2025-03-09
+C00472,Customer 472,Male,60,Consumer,2025-04-02
+C00473,Customer 473,Male,41,Consumer,2025-06-15
+C00474,Customer 474,Male,24,Consumer,2024-05-14
+C00475,Customer 475,Male,58,Consumer,2024-10-15
+C00476,Customer 476,Male,33,Consumer,2024-03-19
+C00477,Customer 477,Male,63,Corporate,2025-05-29
+C00478,Customer 478,Female,35,Small Business,2024-11-15
+C00479,Customer 479,Female,59,Small Business,2025-04-10
+C00480,Customer 480,Male,43,Consumer,2025-02-16
+C00481,Customer 481,Male,40,Consumer,2024-07-18
+C00482,Customer 482,Male,32,Corporate,2024-04-11
+C00483,Customer 483,Female,58,Corporate,2025-12-11
+C00484,Customer 484,Male,20,Consumer,2024-08-02
+C00485,Customer 485,Male,40,Corporate,2024-03-20
+C00486,Customer 486,Male,35,Corporate,2024-08-11
+C00487,Customer 487,Male,44,Corporate,2025-10-20
+C00488,Customer 488,Male,30,Corporate,2024-07-09
+C00489,Customer 489,Female,49,Consumer,2025-12-21
+C00490,Customer 490,Female,36,Consumer,2024-12-02
+C00491,Customer 491,Female,27,Consumer,2025-09-21
+C00492,Customer 492,Female,27,Consumer,2025-04-21
+C00493,Customer 493,Female,51,Small Business,2024-02-02
+C00494,Customer 494,Male,30,Consumer,2025-01-06
+C00495,Customer 495,Female,32,Consumer,2024-10-31
+C00496,Customer 496,Female,48,Corporate,2024-05-27
+C00497,Customer 497,Male,33,Corporate,2025-02-05
+C00498,Customer 498,Female,36,Corporate,2024-03-16
+C00499,Customer 499,Male,29,Consumer,2025-05-24
+C00500,Customer 500,Male,34,Small Business,2025-08-22
+C00501,Customer 501,Female,51,Consumer,2024-03-08
+C00502,Customer 502,Female,43,Consumer,2024-12-15
+C00503,Customer 503,Female,65,Consumer,2025-04-23
+C00504,Customer 504,Male,55,Corporate,2024-02-15
+C00505,Customer 505,Female,18,Corporate,2024-10-11
+C00506,Customer 506,Female,36,Consumer,2024-07-07
+C00507,Customer 507,Male,31,Consumer,2024-01-29
+C00508,Customer 508,Female,46,Corporate,2025-08-09
+C00509,Customer 509,Male,30,Corporate,2024-11-20
+C00510,Customer 510,Male,64,Consumer,2025-07-02
+C00511,Customer 511,Male,32,Small Business,2025-03-04
+C00512,Customer 512,Female,43,Corporate,2025-10-01
+C00513,Customer 513,Male,23,Small Business,2025-12-28
+C00514,Customer 514,Male,61,Small Business,2025-03-15
+C00515,Customer 515,Male,61,Small Business,2024-09-14
+C00516,Customer 516,Male,56,Corporate,2024-11-04
+C00517,Customer 517,Male,34,Consumer,2025-08-25
+C00518,Customer 518,Female,20,Consumer,2024-11-07
+C00519,Customer 519,Male,52,Consumer,2025-01-14
+C00520,Customer 520,Female,38,Corporate,2024-05-21
+C00521,Customer 521,Female,65,Consumer,2025-12-23
+C00522,Customer 522,Male,51,Small Business,2025-04-20
+C00523,Customer 523,Male,43,Consumer,2024-08-29
+C00524,Customer 524,Female,65,Consumer,2025-03-03
+C00525,Customer 525,Male,56,Consumer,2024-10-19
+C00526,Customer 526,Male,40,Consumer,2024-04-23
+C00527,Customer 527,Female,18,Consumer,2025-09-30
+C00528,Customer 528,Other,22,Consumer,2025-10-08
+C00529,Customer 529,Female,39,Corporate,2025-09-01
+C00530,Customer 530,Male,44,Consumer,2024-09-25
+C00531,Customer 531,Female,19,Consumer,2024-07-06
+C00532,Customer 532,Female,24,Consumer,2024-02-06
+C00533,Customer 533,Male,51,Consumer,2025-06-18
+C00534,Customer 534,Female,54,Consumer,2024-08-27
+C00535,Customer 535,Male,19,Corporate,2025-10-13
+C00536,Customer 536,Male,42,Corporate,2025-09-26
+C00537,Customer 537,Female,21,Consumer,2024-04-03
+C00538,Customer 538,Male,52,Consumer,2025-10-31
+C00539,Customer 539,Male,58,Consumer,2024-04-12
+C00540,Customer 540,Female,59,Consumer,2024-12-23
+C00541,Customer 541,Other,46,Small Business,2024-12-11
+C00542,Customer 542,Female,48,Consumer,2025-11-29
+C00543,Customer 543,Female,62,Small Business,2025-04-24
+C00544,Customer 544,Other,47,Consumer,2025-09-30
+C00545,Customer 545,Male,39,Consumer,2025-03-10
+C00546,Customer 546,Male,54,Consumer,2025-08-25
+C00547,Customer 547,Male,46,Consumer,2025-09-14
+C00548,Customer 548,Male,58,Small Business,2025-09-19
+C00549,Customer 549,Female,43,Consumer,2024-10-27
+C00550,Customer 550,Male,59,Small Business,2024-10-05
+C00551,Customer 551,Male,20,Small Business,2025-12-19
+C00552,Customer 552,Male,19,Consumer,2025-07-06
+C00553,Customer 553,Male,22,Consumer,2025-10-31
+C00554,Customer 554,Female,44,Consumer,2025-02-25
+C00555,Customer 555,Male,52,Consumer,2025-11-09
+C00556,Customer 556,Male,28,Corporate,2025-06-09
+C00557,Customer 557,Male,25,Consumer,2025-06-26
+C00558,Customer 558,Male,59,Small Business,2024-05-09
+C00559,Customer 559,Female,54,Corporate,2025-02-17
+C00560,Customer 560,Male,49,Consumer,2025-06-17
+C00561,Customer 561,Male,41,Corporate,2025-07-09
+C00562,Customer 562,Male,38,Consumer,2025-11-30
+C00563,Customer 563,Female,18,Small Business,2024-08-26
+C00564,Customer 564,Female,27,Consumer,2024-08-08
+C00565,Customer 565,Female,61,Small Business,2025-12-08
+C00566,Customer 566,Female,34,Corporate,2025-12-20
+C00567,Customer 567,Female,51,Small Business,2024-05-11
+C00568,Customer 568,Male,51,Consumer,2024-10-03
+C00569,Customer 569,Male,32,Corporate,2025-11-23
+C00570,Customer 570,Female,27,Consumer,2024-05-25
+C00571,Customer 571,Male,51,Corporate,2025-07-25
+C00572,Customer 572,Female,22,Consumer,2024-03-22
+C00573,Customer 573,Male,41,Consumer,2024-05-10
+C00574,Customer 574,Female,60,Consumer,2025-07-27
+C00575,Customer 575,Female,52,Consumer,2025-03-19
+C00576,Customer 576,Male,54,Consumer,2025-02-09
+C00577,Customer 577,Female,21,Corporate,2025-09-17
+C00578,Customer 578,Female,27,Consumer,2024-08-12
+C00579,Customer 579,Female,31,Corporate,2025-01-02
+C00580,Customer 580,Male,32,Consumer,2025-03-20
+C00581,Customer 581,Male,27,Corporate,2025-06-24
+C00582,Customer 582,Female,64,Corporate,2024-08-30
+C00583,Customer 583,Male,25,Consumer,2025-04-07
+C00584,Customer 584,Male,51,Corporate,2024-11-23
+C00585,Customer 585,Female,46,Small Business,2025-01-30
+C00586,Customer 586,Female,47,Corporate,2025-09-21
+C00587,Customer 587,Male,28,Consumer,2024-10-14
+C00588,Customer 588,Male,32,Consumer,2025-05-02
+C00589,Customer 589,Male,47,Corporate,2025-11-18
+C00590,Customer 590,Male,32,Consumer,2025-07-10
+C00591,Customer 591,Female,51,Corporate,2025-12-22
+C00592,Customer 592,Male,19,Consumer,2025-03-01
+C00593,Customer 593,Male,21,Corporate,2024-07-24
+C00594,Customer 594,Female,52,Consumer,2025-12-24
+C00595,Customer 595,Male,47,Consumer,2025-04-15
+C00596,Customer 596,Male,20,Small Business,2024-06-25
+C00597,Customer 597,Female,61,Small Business,2024-08-19
+C00598,Customer 598,Female,18,Small Business,2024-07-10
+C00599,Customer 599,Other,63,Small Business,2025-08-31
+C00600,Customer 600,Female,53,Consumer,2024-03-08
+C00601,Customer 601,Male,65,Consumer,2025-06-24
+C00602,Customer 602,Female,63,Consumer,2025-02-08
+C00603,Customer 603,Female,33,Consumer,2024-02-23
+C00604,Customer 604,Female,54,Consumer,2025-03-23
+C00605,Customer 605,Female,28,Small Business,2025-07-03
+C00606,Customer 606,Female,40,Consumer,2025-06-13
+C00607,Customer 607,Female,29,Consumer,2025-01-20
+C00608,Customer 608,Male,41,Consumer,2024-09-01
+C00609,Customer 609,Female,59,Consumer,2024-04-29
+C00610,Customer 610,Male,38,Consumer,2024-01-09
+C00611,Customer 611,Female,22,Corporate,2024-09-19
+C00612,Customer 612,Female,33,Consumer,2025-04-06
+C00613,Customer 613,Female,55,Consumer,2024-01-28
+C00614,Customer 614,Other,43,Small Business,2025-12-30
+C00615,Customer 615,Male,44,Consumer,2025-03-03
+C00616,Customer 616,Female,38,Corporate,2024-08-03
+C00617,Customer 617,Female,32,Consumer,2025-12-03
+C00618,Customer 618,Male,46,Consumer,2024-05-14
+C00619,Customer 619,Male,48,Consumer,2025-11-30
+C00620,Customer 620,Male,61,Small Business,2024-07-24
+C00621,Customer 621,Female,47,Corporate,2024-10-04
+C00622,Customer 622,Male,65,Consumer,2024-11-06
+C00623,Customer 623,Other,57,Consumer,2025-12-27
+C00624,Customer 624,Male,21,Corporate,2024-07-02
+C00625,Customer 625,Female,36,Corporate,2025-12-11
+C00626,Customer 626,Male,36,Consumer,2024-09-10
+C00627,Customer 627,Female,18,Small Business,2024-07-27
+C00628,Customer 628,Male,26,Corporate,2025-04-10
+C00629,Customer 629,Female,54,Corporate,2025-05-21
+C00630,Customer 630,Female,34,Consumer,2024-09-08
+C00631,Customer 631,Female,25,Consumer,2024-04-07
+C00632,Customer 632,Female,31,Small Business,2024-10-16
+C00633,Customer 633,Male,31,Consumer,2025-01-29
+C00634,Customer 634,Male,26,Consumer,2024-01-30
+C00635,Customer 635,Male,22,Consumer,2024-02-27
+C00636,Customer 636,Male,54,Consumer,2025-11-01
+C00637,Customer 637,Female,57,Corporate,2024-01-27
+C00638,Customer 638,Female,41,Consumer,2024-10-24
+C00639,Customer 639,Female,47,Corporate,2025-07-11
+C00640,Customer 640,Female,62,Consumer,2024-08-27
+C00641,Customer 641,Female,58,Consumer,2024-12-27
+C00642,Customer 642,Female,19,Consumer,2024-03-04
+C00643,Customer 643,Male,63,Corporate,2025-08-02
+C00644,Customer 644,Male,21,Consumer,2025-04-07
+C00645,Customer 645,Female,19,Consumer,2025-09-13
+C00646,Customer 646,Female,37,Corporate,2025-09-22
+C00647,Customer 647,Male,53,Consumer,2024-09-13
+C00648,Customer 648,Male,21,Consumer,2024-01-31
+C00649,Customer 649,Female,32,Consumer,2024-09-09
+C00650,Customer 650,Male,30,Small Business,2024-04-16
+C00651,Customer 651,Male,37,Consumer,2025-01-24
+C00652,Customer 652,Female,65,Consumer,2024-04-16
+C00653,Customer 653,Female,33,Consumer,2025-11-03
+C00654,Customer 654,Male,28,Consumer,2025-03-15
+C00655,Customer 655,Female,23,Consumer,2024-07-03
+C00656,Customer 656,Male,27,Consumer,2025-11-03
+C00657,Customer 657,Female,24,Consumer,2025-07-15
+C00658,Customer 658,Male,45,Consumer,2024-11-15
+C00659,Customer 659,Female,38,Small Business,2024-04-16
+C00660,Customer 660,Male,41,Consumer,2024-09-07
+C00661,Customer 661,Male,57,Consumer,2025-03-02
+C00662,Customer 662,Female,45,Small Business,2025-07-13
+C00663,Customer 663,Male,25,Small Business,2024-07-10
+C00664,Customer 664,Male,36,Corporate,2025-06-26
+C00665,Customer 665,Male,33,Consumer,2024-07-25
+C00666,Customer 666,Female,57,Consumer,2024-06-29
+C00667,Customer 667,Female,32,Consumer,2024-11-22
+C00668,Customer 668,Other,24,Consumer,2024-04-27
+C00669,Customer 669,Male,53,Consumer,2024-10-22
+C00670,Customer 670,Male,38,Consumer,2024-09-18
+C00671,Customer 671,Male,22,Consumer,2024-07-23
+C00672,Customer 672,Female,51,Consumer,2025-07-20
+C00673,Customer 673,Other,28,Consumer,2024-08-30
+C00674,Customer 674,Female,59,Consumer,2025-05-22
+C00675,Customer 675,Female,57,Corporate,2025-06-09
+C00676,Customer 676,Male,35,Small Business,2025-05-01
+C00677,Customer 677,Female,44,Consumer,2024-07-15
+C00678,Customer 678,Male,45,Consumer,2025-08-28
+C00679,Customer 679,Male,49,Consumer,2024-06-21
+C00680,Customer 680,Male,21,Consumer,2024-07-21
+C00681,Customer 681,Male,33,Corporate,2025-09-30
+C00682,Customer 682,Male,26,Consumer,2024-09-04
+C00683,Customer 683,Male,51,Consumer,2025-05-23
+C00684,Customer 684,Male,21,Consumer,2024-01-31
+C00685,Customer 685,Female,42,Consumer,2025-03-24
+C00686,Customer 686,Male,52,Consumer,2025-09-26
+C00687,Customer 687,Male,63,Consumer,2025-06-01
+C00688,Customer 688,Female,31,Small Business,2025-03-01
+C00689,Customer 689,Female,18,Consumer,2025-09-11
+C00690,Customer 690,Female,52,Consumer,2024-08-05
+C00691,Customer 691,Male,18,Consumer,2024-10-02
+C00692,Customer 692,Female,21,Consumer,2024-02-20
+C00693,Customer 693,Male,65,Consumer,2025-05-24
+C00694,Customer 694,Male,59,Consumer,2025-06-12
+C00695,Customer 695,Female,51,Corporate,2025-07-02
+C00696,Customer 696,Female,58,Consumer,2025-06-30
+C00697,Customer 697,Female,21,Consumer,2024-04-02
+C00698,Customer 698,Female,22,Consumer,2025-05-01
+C00699,Customer 699,Female,32,Consumer,2025-07-11
+C00700,Customer 700,Male,19,Consumer,2024-05-28
+C00701,Customer 701,Male,60,Small Business,2024-12-13
+C00702,Customer 702,Male,20,Consumer,2025-10-28
+C00703,Customer 703,Male,44,Consumer,2024-10-29
+C00704,Customer 704,Female,58,Corporate,2025-07-03
+C00705,Customer 705,Male,53,Consumer,2025-01-22
+C00706,Customer 706,Female,29,Consumer,2025-04-25
+C00707,Customer 707,Female,40,Consumer,2025-04-02
+C00708,Customer 708,Female,44,Corporate,2025-04-20
+C00709,Customer 709,Male,54,Consumer,2025-07-22
+C00710,Customer 710,Male,38,Corporate,2025-10-22
+C00711,Customer 711,Other,31,Small Business,2024-08-03
+C00712,Customer 712,Female,56,Corporate,2025-11-08
+C00713,Customer 713,Female,60,Small Business,2025-04-03
+C00714,Customer 714,Female,41,Corporate,2025-03-10
+C00715,Customer 715,Female,19,Small Business,2024-08-27
+C00716,Customer 716,Male,42,Corporate,2024-10-31
+C00717,Customer 717,Female,60,Corporate,2025-04-20
+C00718,Customer 718,Male,65,Corporate,2024-09-22
+C00719,Customer 719,Female,37,Small Business,2024-07-28
+C00720,Customer 720,Female,25,Consumer,2025-08-20
+C00721,Customer 721,Male,45,Corporate,2024-10-30
+C00722,Customer 722,Male,57,Consumer,2025-04-15
+C00723,Customer 723,Male,63,Small Business,2024-01-23
+C00724,Customer 724,Female,20,Consumer,2024-02-26
+C00725,Customer 725,Male,31,Corporate,2025-09-11
+C00726,Customer 726,Male,40,Corporate,2024-04-13
+C00727,Customer 727,Male,22,Small Business,2025-08-03
+C00728,Customer 728,Male,60,Consumer,2025-10-19
+C00729,Customer 729,Male,23,Corporate,2024-12-17
+C00730,Customer 730,Male,49,Corporate,2025-10-07
+C00731,Customer 731,Male,62,Small Business,2024-11-07
+C00732,Customer 732,Male,50,Small Business,2025-11-25
+C00733,Customer 733,Male,54,Consumer,2024-06-22
+C00734,Customer 734,Male,30,Consumer,2024-11-08
+C00735,Customer 735,Male,57,Consumer,2024-10-10
+C00736,Customer 736,Female,38,Small Business,2025-07-26
+C00737,Customer 737,Male,20,Consumer,2024-02-01
+C00738,Customer 738,Male,35,Corporate,2025-08-27
+C00739,Customer 739,Male,34,Corporate,2024-01-18
+C00740,Customer 740,Male,43,Consumer,2024-08-18
+C00741,Customer 741,Male,30,Consumer,2025-03-11
+C00742,Customer 742,Male,40,Consumer,2024-04-16
+C00743,Customer 743,Female,38,Small Business,2024-12-23
+C00744,Customer 744,Male,33,Consumer,2025-12-28
+C00745,Customer 745,Male,51,Consumer,2025-08-23
+C00746,Customer 746,Male,32,Corporate,2024-01-23
+C00747,Customer 747,Male,54,Consumer,2025-03-07
+C00748,Customer 748,Male,30,Small Business,2025-03-12
+C00749,Customer 749,Female,59,Consumer,2024-02-19
+C00750,Customer 750,Female,35,Consumer,2025-04-19
+C00751,Customer 751,Male,19,Consumer,2025-01-15
+C00752,Customer 752,Male,25,Consumer,2025-05-12
+C00753,Customer 753,Male,56,Consumer,2024-08-05
+C00754,Customer 754,Male,59,Corporate,2024-07-05
+C00755,Customer 755,Female,28,Consumer,2025-06-21
+C00756,Customer 756,Male,46,Consumer,2025-06-10
+C00757,Customer 757,Male,45,Consumer,2024-04-28
+C00758,Customer 758,Female,24,Consumer,2024-06-06
+C00759,Customer 759,Male,39,Small Business,2025-03-04
+C00760,Customer 760,Male,51,Consumer,2025-08-28
+C00761,Customer 761,Female,64,Small Business,2024-05-27
+C00762,Customer 762,Male,58,Consumer,2024-06-08
+C00763,Customer 763,Male,22,Consumer,2025-08-12
+C00764,Customer 764,Male,29,Consumer,2025-05-23
+C00765,Customer 765,Female,38,Consumer,2025-10-20
+C00766,Customer 766,Male,25,Corporate,2025-07-25
+C00767,Customer 767,Male,45,Consumer,2025-11-26
+C00768,Customer 768,Male,18,Consumer,2024-05-17
+C00769,Customer 769,Male,23,Corporate,2024-07-17
+C00770,Customer 770,Female,20,Corporate,2024-06-22
+C00771,Customer 771,Male,32,Small Business,2024-02-10
+C00772,Customer 772,Female,54,Small Business,2025-07-22
+C00773,Customer 773,Female,26,Corporate,2025-04-28
+C00774,Customer 774,Female,65,Corporate,2024-03-03
+C00775,Customer 775,Male,30,Corporate,2024-05-24
+C00776,Customer 776,Female,20,Consumer,2024-05-19
+C00777,Customer 777,Female,34,Corporate,2024-10-21
+C00778,Customer 778,Male,53,Consumer,2024-11-28
+C00779,Customer 779,Female,23,Corporate,2024-07-29
+C00780,Customer 780,Female,21,Small Business,2025-11-10
+C00781,Customer 781,Male,58,Consumer,2024-06-04
+C00782,Customer 782,Female,46,Corporate,2025-02-14
+C00783,Customer 783,Male,34,Small Business,2024-11-15
+C00784,Customer 784,Female,54,Consumer,2024-10-10
+C00785,Customer 785,Other,58,Consumer,2025-08-25
+C00786,Customer 786,Male,35,Small Business,2025-12-15
+C00787,Customer 787,Female,44,Small Business,2024-01-05
+C00788,Customer 788,Male,18,Consumer,2024-12-04
+C00789,Customer 789,Female,32,Consumer,2024-03-27
+C00790,Customer 790,Female,46,Corporate,2024-11-12
+C00791,Customer 791,Male,27,Consumer,2025-03-26
+C00792,Customer 792,Male,65,Consumer,2024-10-27
+C00793,Customer 793,Male,64,Consumer,2024-08-13
+C00794,Customer 794,Male,30,Consumer,2024-08-15
+C00795,Customer 795,Male,37,Consumer,2024-08-06
+C00796,Customer 796,Male,27,Corporate,2024-08-25
+C00797,Customer 797,Male,42,Corporate,2024-09-30
+C00798,Customer 798,Male,23,Corporate,2025-05-17
+C00799,Customer 799,Female,36,Consumer,2024-03-11
+C00800,Customer 800,Female,44,Consumer,2024-01-30
+C00801,Customer 801,Female,47,Consumer,2025-01-12
+C00802,Customer 802,Male,46,Consumer,2025-05-12
+C00803,Customer 803,Female,28,Consumer,2024-07-07
+C00804,Customer 804,Female,56,Consumer,2024-05-26
+C00805,Customer 805,Male,51,Consumer,2025-04-01
+C00806,Customer 806,Male,54,Consumer,2024-10-07
+C00807,Customer 807,Female,40,Corporate,2025-06-21
+C00808,Customer 808,Male,60,Corporate,2024-04-16
+C00809,Customer 809,Male,36,Small Business,2024-03-29
+C00810,Customer 810,Other,56,Corporate,2025-02-07
+C00811,Customer 811,Male,27,Consumer,2024-10-13
+C00812,Customer 812,Male,29,Consumer,2025-06-16
+C00813,Customer 813,Other,43,Consumer,2025-01-04
+C00814,Customer 814,Female,44,Consumer,2024-09-15
+C00815,Customer 815,Male,53,Consumer,2024-04-26
+C00816,Customer 816,Female,32,Consumer,2024-04-29
+C00817,Customer 817,Female,59,Consumer,2025-07-05
+C00818,Customer 818,Female,33,Consumer,2024-06-14
+C00819,Customer 819,Female,43,Corporate,2025-01-01
+C00820,Customer 820,Male,62,Corporate,2025-08-20
+C00821,Customer 821,Male,43,Corporate,2025-10-17
+C00822,Customer 822,Female,50,Corporate,2024-07-14
+C00823,Customer 823,Male,61,Consumer,2024-03-21
+C00824,Customer 824,Female,64,Consumer,2025-07-19
+C00825,Customer 825,Female,41,Corporate,2025-05-16
+C00826,Customer 826,Male,38,Consumer,2024-08-29
+C00827,Customer 827,Female,27,Consumer,2025-03-09
+C00828,Customer 828,Male,43,Consumer,2024-05-17
+C00829,Customer 829,Female,62,Small Business,2025-05-26
+C00830,Customer 830,Male,41,Corporate,2025-06-14
+C00831,Customer 831,Female,34,Consumer,2024-08-06
+C00832,Customer 832,Female,23,Corporate,2024-12-08
+C00833,Customer 833,Male,36,Consumer,2024-08-31
+C00834,Customer 834,Female,29,Consumer,2024-01-23
+C00835,Customer 835,Female,64,Consumer,2024-04-02
+C00836,Customer 836,Female,43,Consumer,2025-12-01
+C00837,Customer 837,Female,24,Corporate,2024-11-28
+C00838,Customer 838,Other,21,Consumer,2024-04-17
+C00839,Customer 839,Male,58,Corporate,2024-02-02
+C00840,Customer 840,Male,62,Consumer,2024-09-14
+C00841,Customer 841,Male,54,Corporate,2025-12-18
+C00842,Customer 842,Female,23,Corporate,2024-10-07
+C00843,Customer 843,Female,22,Corporate,2025-12-30
+C00844,Customer 844,Male,27,Consumer,2024-12-23
+C00845,Customer 845,Male,54,Small Business,2025-07-11
+C00846,Customer 846,Female,54,Consumer,2025-07-27
+C00847,Customer 847,Male,58,Corporate,2024-01-21
+C00848,Customer 848,Female,22,Corporate,2024-01-05
+C00849,Customer 849,Male,25,Consumer,2025-11-04
+C00850,Customer 850,Female,61,Consumer,2025-11-11
+C00851,Customer 851,Male,62,Consumer,2024-04-06
+C00852,Customer 852,Male,52,Consumer,2025-04-16
+C00853,Customer 853,Female,23,Consumer,2025-11-05
+C00854,Customer 854,Female,21,Consumer,2025-11-24
+C00855,Customer 855,Male,20,Consumer,2024-08-04
+C00856,Customer 856,Male,51,Consumer,2025-08-19
+C00857,Customer 857,Female,58,Corporate,2025-04-16
+C00858,Customer 858,Female,48,Consumer,2025-11-08
+C00859,Customer 859,Male,30,Corporate,2024-04-17
+C00860,Customer 860,Male,54,Consumer,2025-03-14
+C00861,Customer 861,Female,20,Consumer,2024-01-18
+C00862,Customer 862,Female,57,Consumer,2024-09-17
+C00863,Customer 863,Female,60,Corporate,2024-01-09
+C00864,Customer 864,Female,52,Consumer,2024-11-19
+C00865,Customer 865,Male,60,Small Business,2025-08-15
+C00866,Customer 866,Female,46,Consumer,2025-04-25
+C00867,Customer 867,Female,40,Consumer,2024-08-19
+C00868,Customer 868,Female,33,Consumer,2024-11-07
+C00869,Customer 869,Male,62,Corporate,2024-09-25
+C00870,Customer 870,Male,51,Consumer,2025-06-18
+C00871,Customer 871,Female,27,Consumer,2024-07-13
+C00872,Customer 872,Male,63,Consumer,2024-03-08
+C00873,Customer 873,Female,20,Consumer,2025-01-04
+C00874,Customer 874,Male,46,Consumer,2025-08-28
+C00875,Customer 875,Female,27,Small Business,2024-12-14
+C00876,Customer 876,Female,49,Consumer,2024-05-29
+C00877,Customer 877,Male,37,Consumer,2024-02-03
+C00878,Customer 878,Male,38,Small Business,2025-11-20
+C00879,Customer 879,Female,50,Consumer,2025-07-09
+C00880,Customer 880,Female,54,Consumer,2024-04-23
+C00881,Customer 881,Male,36,Corporate,2024-02-23
+C00882,Customer 882,Female,65,Small Business,2024-04-04
+C00883,Customer 883,Female,41,Corporate,2024-10-01
+C00884,Customer 884,Male,25,Consumer,2025-08-15
+C00885,Customer 885,Male,18,Small Business,2024-04-26
+C00886,Customer 886,Male,27,Consumer,2025-08-20
+C00887,Customer 887,Male,51,Small Business,2024-01-02
+C00888,Customer 888,Male,43,Corporate,2025-06-23
+C00889,Customer 889,Male,34,Small Business,2024-07-25
+C00890,Customer 890,Female,41,Consumer,2025-12-02
+C00891,Customer 891,Male,58,Consumer,2024-12-13
+C00892,Customer 892,Female,45,Corporate,2024-07-16
+C00893,Customer 893,Male,20,Consumer,2024-06-26
+C00894,Customer 894,Male,20,Consumer,2025-08-26
+C00895,Customer 895,Female,41,Small Business,2024-10-21
+C00896,Customer 896,Female,37,Corporate,2024-09-13
+C00897,Customer 897,Male,58,Consumer,2025-06-21
+C00898,Customer 898,Male,45,Consumer,2025-01-27
+C00899,Customer 899,Male,54,Consumer,2025-04-29
+C00900,Customer 900,Female,46,Consumer,2024-11-21
+C00901,Customer 901,Male,34,Consumer,2024-02-16
+C00902,Customer 902,Male,49,Corporate,2024-01-05
+C00903,Customer 903,Male,47,Corporate,2024-01-29
+C00904,Customer 904,Male,52,Consumer,2025-02-23
+C00905,Customer 905,Female,27,Consumer,2025-01-09
+C00906,Customer 906,Female,48,Corporate,2025-06-29
+C00907,Customer 907,Male,31,Corporate,2025-10-15
+C00908,Customer 908,Male,55,Small Business,2024-05-07
+C00909,Customer 909,Male,56,Consumer,2025-11-29
+C00910,Customer 910,Male,47,Corporate,2025-11-11
+C00911,Customer 911,Female,63,Consumer,2025-03-25
+C00912,Customer 912,Female,43,Consumer,2025-01-22
+C00913,Customer 913,Female,19,Small Business,2024-05-08
+C00914,Customer 914,Other,47,Consumer,2024-05-10
+C00915,Customer 915,Other,55,Consumer,2024-01-14
+C00916,Customer 916,Female,22,Consumer,2025-04-16
+C00917,Customer 917,Male,23,Consumer,2024-11-12
+C00918,Customer 918,Male,31,Consumer,2024-05-20
+C00919,Customer 919,Male,58,Corporate,2024-04-07
+C00920,Customer 920,Female,43,Consumer,2024-02-16
+C00921,Customer 921,Male,64,Consumer,2025-04-12
+C00922,Customer 922,Female,59,Small Business,2025-05-15
+C00923,Customer 923,Female,44,Consumer,2025-04-06
+C00924,Customer 924,Female,50,Small Business,2024-03-21
+C00925,Customer 925,Male,33,Consumer,2024-01-31
+C00926,Customer 926,Male,22,Consumer,2024-03-18
+C00927,Customer 927,Male,37,Consumer,2025-07-02
+C00928,Customer 928,Female,46,Corporate,2025-06-24
+C00929,Customer 929,Female,26,Consumer,2024-08-03
+C00930,Customer 930,Female,28,Small Business,2024-02-10
+C00931,Customer 931,Male,18,Consumer,2024-08-21
+C00932,Customer 932,Male,53,Consumer,2025-08-14
+C00933,Customer 933,Male,61,Consumer,2024-04-14
+C00934,Customer 934,Female,57,Consumer,2025-08-04
+C00935,Customer 935,Female,36,Consumer,2024-12-04
+C00936,Customer 936,Male,46,Consumer,2024-04-13
+C00937,Customer 937,Female,64,Consumer,2025-11-12
+C00938,Customer 938,Male,46,Corporate,2025-01-13
+C00939,Customer 939,Female,32,Consumer,2025-05-05
+C00940,Customer 940,Male,34,Consumer,2024-03-11
+C00941,Customer 941,Male,52,Consumer,2024-09-28
+C00942,Customer 942,Female,39,Consumer,2025-04-06
+C00943,Customer 943,Male,58,Consumer,2025-04-16
+C00944,Customer 944,Male,59,Consumer,2024-02-15
+C00945,Customer 945,Male,19,Consumer,2025-03-17
+C00946,Customer 946,Male,52,Small Business,2025-11-20
+C00947,Customer 947,Female,35,Consumer,2025-07-28
+C00948,Customer 948,Female,42,Consumer,2024-05-31
+C00949,Customer 949,Female,30,Small Business,2025-10-28
+C00950,Customer 950,Male,35,Consumer,2025-05-13
+C00951,Customer 951,Female,33,Consumer,2024-02-11
+C00952,Customer 952,Male,20,Small Business,2024-04-03
+C00953,Customer 953,Male,55,Small Business,2025-11-03
+C00954,Customer 954,Male,24,Corporate,2024-06-02
+C00955,Customer 955,Female,36,Consumer,2024-03-11
+C00956,Customer 956,Female,27,Consumer,2024-11-25
+C00957,Customer 957,Female,25,Small Business,2025-01-18
+C00958,Customer 958,Male,35,Small Business,2025-02-22
+C00959,Customer 959,Male,62,Consumer,2025-04-25
+C00960,Customer 960,Female,63,Consumer,2025-12-30
+C00961,Customer 961,Female,36,Consumer,2025-07-08
+C00962,Customer 962,Male,42,Consumer,2024-01-19
+C00963,Customer 963,Male,65,Corporate,2024-03-05
+C00964,Customer 964,Male,29,Consumer,2024-01-01
+C00965,Customer 965,Female,63,Consumer,2024-10-15
+C00966,Customer 966,Male,23,Consumer,2024-09-12
+C00967,Customer 967,Female,28,Consumer,2025-11-12
+C00968,Customer 968,Male,34,Consumer,2024-09-24
+C00969,Customer 969,Female,19,Consumer,2024-01-23
+C00970,Customer 970,Male,57,Consumer,2025-10-07
+C00971,Customer 971,Male,59,Small Business,2024-07-08
+C00972,Customer 972,Male,36,Consumer,2025-10-28
+C00973,Customer 973,Male,58,Consumer,2025-07-19
+C00974,Customer 974,Female,55,Consumer,2025-10-04
+C00975,Customer 975,Male,56,Consumer,2025-08-21
+C00976,Customer 976,Female,56,Consumer,2024-04-14
+C00977,Customer 977,Male,45,Consumer,2025-04-02
+C00978,Customer 978,Male,23,Consumer,2024-10-27
+C00979,Customer 979,Female,62,Consumer,2025-04-04
+C00980,Customer 980,Male,47,Corporate,2025-06-28
+C00981,Customer 981,Other,61,Consumer,2024-12-31
+C00982,Customer 982,Female,64,Consumer,2024-08-16
+C00983,Customer 983,Female,26,Consumer,2025-10-30
+C00984,Customer 984,Male,37,Consumer,2025-04-29
+C00985,Customer 985,Male,27,Consumer,2025-10-08
+C00986,Customer 986,Female,20,Consumer,2024-06-22
+C00987,Customer 987,Male,64,Consumer,2025-09-03
+C00988,Customer 988,Male,62,Consumer,2024-08-24
+C00989,Customer 989,Male,62,Small Business,2024-12-02
+C00990,Customer 990,Female,60,Small Business,2025-09-20
+C00991,Customer 991,Female,49,Small Business,2024-09-15
+C00992,Customer 992,Female,43,Consumer,2024-07-01
+C00993,Customer 993,Female,65,Consumer,2025-10-30
+C00994,Customer 994,Male,44,Consumer,2025-12-04
+C00995,Customer 995,Female,48,Consumer,2024-08-15
+C00996,Customer 996,Male,28,Consumer,2024-08-11
+C00997,Customer 997,Female,53,Consumer,2024-06-15
+C00998,Customer 998,Male,57,Consumer,2024-01-18
+C00999,Customer 999,Other,50,Consumer,2025-02-07
+C01000,Customer 1000,Male,41,Consumer,2024-07-05
+C01001,Customer 1001,Male,27,Corporate,2025-09-11
+C01002,Customer 1002,Male,19,Consumer,2024-05-04
+C01003,Customer 1003,Male,48,Small Business,2025-04-08
+C01004,Customer 1004,Male,50,Consumer,2025-01-04
+C01005,Customer 1005,Female,55,Consumer,2025-03-22
+C01006,Customer 1006,Male,63,Consumer,2024-03-23
+C01007,Customer 1007,Female,41,Consumer,2024-12-06
+C01008,Customer 1008,Male,57,Consumer,2025-04-02
+C01009,Customer 1009,Female,52,Consumer,2024-09-05
+C01010,Customer 1010,Male,31,Consumer,2025-09-30
+C01011,Customer 1011,Female,58,Consumer,2025-01-21
+C01012,Customer 1012,Female,20,Consumer,2024-09-21
+C01013,Customer 1013,Male,46,Small Business,2024-01-23
+C01014,Customer 1014,Female,63,Consumer,2024-05-02
+C01015,Customer 1015,Male,49,Consumer,2024-12-13
+C01016,Customer 1016,Male,62,Consumer,2024-10-19
+C01017,Customer 1017,Female,20,Consumer,2025-09-28
+C01018,Customer 1018,Female,43,Consumer,2025-07-27
+C01019,Customer 1019,Male,55,Consumer,2024-04-26
+C01020,Customer 1020,Male,48,Corporate,2025-03-07
+C01021,Customer 1021,Female,60,Consumer,2024-11-27
+C01022,Customer 1022,Female,40,Consumer,2024-03-14
+C01023,Customer 1023,Other,50,Consumer,2025-05-01
+C01024,Customer 1024,Female,38,Small Business,2025-01-27
+C01025,Customer 1025,Female,59,Corporate,2024-03-04
+C01026,Customer 1026,Male,23,Small Business,2024-12-07
+C01027,Customer 1027,Female,30,Corporate,2025-06-18
+C01028,Customer 1028,Male,22,Corporate,2024-08-26
+C01029,Customer 1029,Female,51,Consumer,2024-09-17
+C01030,Customer 1030,Male,29,Small Business,2024-03-21
+C01031,Customer 1031,Female,33,Consumer,2024-05-29
+C01032,Customer 1032,Female,58,Consumer,2025-12-17
+C01033,Customer 1033,Male,35,Corporate,2025-03-29
+C01034,Customer 1034,Female,24,Consumer,2024-05-08
+C01035,Customer 1035,Male,19,Consumer,2024-12-18
+C01036,Customer 1036,Female,28,Consumer,2024-05-20
+C01037,Customer 1037,Male,61,Consumer,2024-11-19
+C01038,Customer 1038,Male,44,Corporate,2024-04-16
+C01039,Customer 1039,Male,65,Consumer,2025-03-27
+C01040,Customer 1040,Male,28,Corporate,2025-02-20
+C01041,Customer 1041,Male,34,Consumer,2025-04-07
+C01042,Customer 1042,Female,25,Corporate,2024-11-19
+C01043,Customer 1043,Female,37,Consumer,2024-07-27
+C01044,Customer 1044,Female,45,Small Business,2024-07-01
+C01045,Customer 1045,Male,56,Consumer,2024-06-06
+C01046,Customer 1046,Male,35,Consumer,2024-11-09
+C01047,Customer 1047,Male,55,Consumer,2024-11-25
+C01048,Customer 1048,Female,48,Consumer,2025-05-06
+C01049,Customer 1049,Female,32,Consumer,2024-02-08
+C01050,Customer 1050,Male,61,Corporate,2024-07-24
+C01051,Customer 1051,Female,38,Small Business,2025-09-14
+C01052,Customer 1052,Male,25,Corporate,2025-10-30
+C01053,Customer 1053,Male,64,Consumer,2025-11-10
+C01054,Customer 1054,Male,61,Consumer,2024-08-11
+C01055,Customer 1055,Male,20,Corporate,2024-04-10
+C01056,Customer 1056,Female,61,Corporate,2024-05-24
+C01057,Customer 1057,Female,63,Consumer,2024-04-06
+C01058,Customer 1058,Male,57,Small Business,2025-11-27
+C01059,Customer 1059,Female,30,Consumer,2025-10-06
+C01060,Customer 1060,Female,48,Corporate,2025-08-14
+C01061,Customer 1061,Female,43,Small Business,2025-06-16
+C01062,Customer 1062,Female,47,Corporate,2024-09-07
+C01063,Customer 1063,Male,47,Consumer,2024-12-13
+C01064,Customer 1064,Female,48,Consumer,2025-09-06
+C01065,Customer 1065,Male,42,Consumer,2025-08-17
+C01066,Customer 1066,Female,51,Corporate,2025-01-13
+C01067,Customer 1067,Male,43,Consumer,2025-09-03
+C01068,Customer 1068,Female,18,Corporate,2024-09-10
+C01069,Customer 1069,Male,19,Small Business,2024-10-28
+C01070,Customer 1070,Male,63,Consumer,2025-09-04
+C01071,Customer 1071,Female,61,Consumer,2024-10-01
+C01072,Customer 1072,Female,46,Corporate,2025-07-03
+C01073,Customer 1073,Male,26,Consumer,2024-11-26
+C01074,Customer 1074,Female,55,Consumer,2024-08-05
+C01075,Customer 1075,Female,24,Consumer,2024-06-08
+C01076,Customer 1076,Male,36,Consumer,2025-03-18
+C01077,Customer 1077,Female,33,Corporate,2024-12-16
+C01078,Customer 1078,Male,18,Consumer,2024-09-26
+C01079,Customer 1079,Female,56,Consumer,2025-06-26
+C01080,Customer 1080,Male,42,Consumer,2024-01-01
+C01081,Customer 1081,Male,33,Consumer,2024-03-08
+C01082,Customer 1082,Female,42,Consumer,2025-12-03
+C01083,Customer 1083,Female,18,Corporate,2025-04-29
+C01084,Customer 1084,Female,38,Consumer,2025-02-05
+C01085,Customer 1085,Female,42,Consumer,2024-01-11
+C01086,Customer 1086,Female,34,Small Business,2025-03-12
+C01087,Customer 1087,Female,57,Consumer,2024-11-13
+C01088,Customer 1088,Female,29,Consumer,2025-03-13
+C01089,Customer 1089,Male,24,Consumer,2024-01-30
+C01090,Customer 1090,Male,43,Consumer,2025-02-05
+C01091,Customer 1091,Male,60,Consumer,2025-02-25
+C01092,Customer 1092,Female,36,Corporate,2024-07-30
+C01093,Customer 1093,Male,20,Corporate,2024-02-09
+C01094,Customer 1094,Male,64,Consumer,2025-12-10
+C01095,Customer 1095,Female,39,Consumer,2025-06-01
+C01096,Customer 1096,Male,26,Consumer,2025-03-29
+C01097,Customer 1097,Male,47,Consumer,2025-07-13
+C01098,Customer 1098,Female,33,Corporate,2025-05-04
+C01099,Customer 1099,Female,63,Corporate,2024-04-08
+C01100,Customer 1100,Male,32,Small Business,2024-11-27
+C01101,Customer 1101,Male,44,Consumer,2025-10-10
+C01102,Customer 1102,Male,44,Corporate,2024-07-29
+C01103,Customer 1103,Female,29,Consumer,2025-12-10
+C01104,Customer 1104,Female,41,Consumer,2024-02-16
+C01105,Customer 1105,Male,23,Small Business,2024-08-29
+C01106,Customer 1106,Female,48,Consumer,2024-09-12
+C01107,Customer 1107,Male,54,Corporate,2025-03-26
+C01108,Customer 1108,Male,63,Corporate,2024-05-08
+C01109,Customer 1109,Other,33,Small Business,2024-06-16
+C01110,Customer 1110,Male,31,Consumer,2025-04-28
+C01111,Customer 1111,Male,44,Consumer,2024-07-26
+C01112,Customer 1112,Male,51,Corporate,2025-10-03
+C01113,Customer 1113,Female,65,Corporate,2025-09-27
+C01114,Customer 1114,Female,19,Consumer,2024-08-09
+C01115,Customer 1115,Other,29,Corporate,2025-02-12
+C01116,Customer 1116,Male,30,Consumer,2024-08-31
+C01117,Customer 1117,Male,30,Consumer,2024-09-08
+C01118,Customer 1118,Female,40,Small Business,2025-05-04
+C01119,Customer 1119,Male,59,Consumer,2024-08-01
+C01120,Customer 1120,Female,19,Consumer,2024-04-18
+C01121,Customer 1121,Female,57,Small Business,2024-07-08
+C01122,Customer 1122,Male,47,Corporate,2025-11-09
+C01123,Customer 1123,Female,47,Small Business,2024-07-08
+C01124,Customer 1124,Male,50,Consumer,2024-09-22
+C01125,Customer 1125,Male,23,Small Business,2025-04-04
+C01126,Customer 1126,Female,53,Consumer,2024-03-14
+C01127,Customer 1127,Male,29,Consumer,2024-07-14
+C01128,Customer 1128,Female,42,Consumer,2024-05-07
+C01129,Customer 1129,Female,50,Corporate,2025-11-05
+C01130,Customer 1130,Other,46,Small Business,2025-11-11
+C01131,Customer 1131,Other,33,Corporate,2025-07-05
+C01132,Customer 1132,Male,37,Corporate,2024-06-29
+C01133,Customer 1133,Male,40,Consumer,2025-03-25
+C01134,Customer 1134,Female,19,Consumer,2025-04-28
+C01135,Customer 1135,Female,52,Consumer,2025-09-26
+C01136,Customer 1136,Male,22,Consumer,2024-04-24
+C01137,Customer 1137,Male,40,Consumer,2025-06-21
+C01138,Customer 1138,Male,49,Small Business,2024-05-21
+C01139,Customer 1139,Male,21,Corporate,2025-02-19
+C01140,Customer 1140,Female,65,Corporate,2025-10-03
+C01141,Customer 1141,Male,36,Consumer,2024-02-15
+C01142,Customer 1142,Female,18,Consumer,2024-04-18
+C01143,Customer 1143,Female,49,Consumer,2025-08-16
+C01144,Customer 1144,Female,44,Consumer,2024-01-14
+C01145,Customer 1145,Male,48,Consumer,2025-05-15
+C01146,Customer 1146,Male,54,Consumer,2024-12-31
+C01147,Customer 1147,Female,40,Consumer,2024-09-10
+C01148,Customer 1148,Female,57,Corporate,2025-09-21
+C01149,Customer 1149,Male,35,Consumer,2025-09-11
+C01150,Customer 1150,Female,44,Consumer,2024-08-25
+C01151,Customer 1151,Male,25,Consumer,2024-01-04
+C01152,Customer 1152,Female,47,Consumer,2024-04-03
+C01153,Customer 1153,Male,30,Consumer,2024-03-19
+C01154,Customer 1154,Male,51,Consumer,2025-12-18
+C01155,Customer 1155,Female,56,Consumer,2025-03-11
+C01156,Customer 1156,Male,59,Consumer,2025-05-09
+C01157,Customer 1157,Male,62,Small Business,2024-06-17
+C01158,Customer 1158,Male,23,Consumer,2025-09-13
+C01159,Customer 1159,Male,24,Consumer,2025-06-11
+C01160,Customer 1160,Female,62,Consumer,2025-07-03
+C01161,Customer 1161,Male,36,Consumer,2024-12-07
+C01162,Customer 1162,Female,19,Consumer,2025-05-24
+C01163,Customer 1163,Female,31,Small Business,2025-02-01
+C01164,Customer 1164,Male,58,Consumer,2024-10-07
+C01165,Customer 1165,Male,35,Corporate,2025-03-09
+C01166,Customer 1166,Female,21,Consumer,2024-08-24
+C01167,Customer 1167,Female,52,Consumer,2025-11-26
+C01168,Customer 1168,Female,27,Consumer,2025-06-07
+C01169,Customer 1169,Female,34,Consumer,2025-06-23
+C01170,Customer 1170,Male,18,Consumer,2025-06-07
+C01171,Customer 1171,Male,46,Small Business,2024-11-23
+C01172,Customer 1172,Female,39,Corporate,2025-11-24
+C01173,Customer 1173,Male,59,Small Business,2024-05-31
+C01174,Customer 1174,Female,34,Consumer,2025-02-19
+C01175,Customer 1175,Male,27,Corporate,2024-02-20
+C01176,Customer 1176,Female,25,Consumer,2024-08-03
+C01177,Customer 1177,Male,27,Consumer,2025-02-23
+C01178,Customer 1178,Male,39,Small Business,2024-12-23
+C01179,Customer 1179,Male,22,Corporate,2025-11-18
+C01180,Customer 1180,Male,37,Small Business,2025-03-24
+C01181,Customer 1181,Female,59,Corporate,2024-10-27
+C01182,Customer 1182,Male,54,Consumer,2024-11-07
+C01183,Customer 1183,Male,48,Corporate,2025-03-22
+C01184,Customer 1184,Male,60,Consumer,2025-07-31
+C01185,Customer 1185,Male,55,Small Business,2024-07-20
+C01186,Customer 1186,Female,49,Corporate,2025-03-02
+C01187,Customer 1187,Male,59,Consumer,2025-02-23
+C01188,Customer 1188,Other,23,Consumer,2024-01-07
+C01189,Customer 1189,Male,57,Consumer,2025-10-28
+C01190,Customer 1190,Female,32,Consumer,2025-02-19
+C01191,Customer 1191,Male,53,Consumer,2024-06-25
+C01192,Customer 1192,Male,61,Corporate,2025-04-07
+C01193,Customer 1193,Female,41,Consumer,2025-05-09
+C01194,Customer 1194,Female,22,Corporate,2025-10-30
+C01195,Customer 1195,Female,35,Consumer,2024-01-25
+C01196,Customer 1196,Male,37,Consumer,2024-10-29
+C01197,Customer 1197,Male,62,Consumer,2024-05-11
+C01198,Customer 1198,Female,63,Small Business,2025-02-23
+C01199,Customer 1199,Male,45,Consumer,2025-01-01
+C01200,Customer 1200,Female,63,Consumer,2024-12-12
+C01201,Customer 1201,Female,38,Consumer,2025-12-17
+C01202,Customer 1202,Female,37,Corporate,2025-01-23
+C01203,Customer 1203,Female,58,Consumer,2024-10-27
+C01204,Customer 1204,Female,50,Consumer,2024-02-19
+C01205,Customer 1205,Male,43,Corporate,2024-07-30
+C01206,Customer 1206,Male,39,Corporate,2025-10-17
+C01207,Customer 1207,Female,51,Consumer,2024-11-25
+C01208,Customer 1208,Male,54,Consumer,2025-10-26
+C01209,Customer 1209,Male,41,Consumer,2025-01-23
+C01210,Customer 1210,Male,19,Consumer,2025-02-04
+C01211,Customer 1211,Female,22,Corporate,2024-11-09
+C01212,Customer 1212,Female,24,Consumer,2025-02-10
+C01213,Customer 1213,Female,40,Consumer,2024-02-18
+C01214,Customer 1214,Male,47,Consumer,2024-02-12
+C01215,Customer 1215,Male,56,Consumer,2024-12-13
+C01216,Customer 1216,Female,29,Consumer,2025-03-12
+C01217,Customer 1217,Male,55,Corporate,2025-02-06
+C01218,Customer 1218,Female,49,Consumer,2024-11-09
+C01219,Customer 1219,Female,20,Small Business,2024-08-02
+C01220,Customer 1220,Male,34,Corporate,2025-06-01
+C01221,Customer 1221,Male,32,Consumer,2025-03-17
+C01222,Customer 1222,Male,60,Consumer,2024-02-04
+C01223,Customer 1223,Female,62,Consumer,2024-11-26
+C01224,Customer 1224,Female,57,Consumer,2025-06-02
+C01225,Customer 1225,Male,43,Consumer,2025-07-26
+C01226,Customer 1226,Female,41,Small Business,2024-07-28
+C01227,Customer 1227,Male,32,Consumer,2025-11-06
+C01228,Customer 1228,Male,55,Consumer,2025-04-20
+C01229,Customer 1229,Female,22,Consumer,2024-11-15
+C01230,Customer 1230,Male,31,Consumer,2025-04-02
+C01231,Customer 1231,Male,24,Small Business,2025-09-28
+C01232,Customer 1232,Female,41,Consumer,2024-06-14
+C01233,Customer 1233,Male,32,Corporate,2024-04-19
+C01234,Customer 1234,Female,27,Corporate,2024-11-17
+C01235,Customer 1235,Male,36,Consumer,2024-03-02
+C01236,Customer 1236,Male,59,Consumer,2025-09-02
+C01237,Customer 1237,Male,44,Consumer,2025-12-09
+C01238,Customer 1238,Male,57,Small Business,2025-03-18
+C01239,Customer 1239,Male,61,Consumer,2025-12-16
+C01240,Customer 1240,Male,61,Corporate,2024-02-20
+C01241,Customer 1241,Female,34,Corporate,2025-04-06
+C01242,Customer 1242,Male,60,Corporate,2024-11-19
+C01243,Customer 1243,Male,61,Consumer,2024-07-21
+C01244,Customer 1244,Male,64,Consumer,2024-08-15
+C01245,Customer 1245,Male,34,Corporate,2025-02-01
+C01246,Customer 1246,Male,28,Consumer,2025-04-13
+C01247,Customer 1247,Female,46,Small Business,2024-04-29
+C01248,Customer 1248,Male,62,Consumer,2025-03-24
+C01249,Customer 1249,Female,61,Consumer,2025-11-07
+C01250,Customer 1250,Female,45,Corporate,2024-01-08
+C01251,Customer 1251,Male,25,Consumer,2025-10-03
+C01252,Customer 1252,Male,38,Consumer,2025-03-19
+C01253,Customer 1253,Male,52,Consumer,2024-09-06
+C01254,Customer 1254,Female,44,Consumer,2025-06-20
+C01255,Customer 1255,Male,34,Corporate,2025-03-26
+C01256,Customer 1256,Female,34,Consumer,2025-07-15
+C01257,Customer 1257,Female,20,Consumer,2024-02-29
+C01258,Customer 1258,Female,31,Consumer,2024-02-13
+C01259,Customer 1259,Female,50,Small Business,2025-04-13
+C01260,Customer 1260,Other,29,Consumer,2024-08-09
+C01261,Customer 1261,Male,65,Small Business,2024-06-22
+C01262,Customer 1262,Male,21,Small Business,2024-11-03
+C01263,Customer 1263,Male,46,Consumer,2025-06-13
+C01264,Customer 1264,Female,41,Corporate,2024-05-11
+C01265,Customer 1265,Female,57,Corporate,2025-12-11
+C01266,Customer 1266,Female,60,Consumer,2024-11-03
+C01267,Customer 1267,Male,44,Consumer,2024-04-19
+C01268,Customer 1268,Female,48,Corporate,2024-02-21
+C01269,Customer 1269,Male,51,Corporate,2025-09-17
+C01270,Customer 1270,Male,43,Corporate,2024-03-23
+C01271,Customer 1271,Female,26,Small Business,2024-11-01
+C01272,Customer 1272,Male,38,Consumer,2025-05-03
+C01273,Customer 1273,Male,29,Corporate,2025-01-09
+C01274,Customer 1274,Female,40,Small Business,2024-07-10
+C01275,Customer 1275,Male,47,Consumer,2024-03-19
+C01276,Customer 1276,Male,28,Consumer,2025-06-03
+C01277,Customer 1277,Male,29,Consumer,2024-12-23
+C01278,Customer 1278,Male,57,Small Business,2024-02-05
+C01279,Customer 1279,Female,36,Consumer,2024-05-12
+C01280,Customer 1280,Female,27,Corporate,2025-02-14
+C01281,Customer 1281,Male,52,Consumer,2024-05-02
+C01282,Customer 1282,Male,52,Consumer,2024-10-12
+C01283,Customer 1283,Male,57,Consumer,2024-03-31
+C01284,Customer 1284,Female,54,Consumer,2025-08-04
+C01285,Customer 1285,Female,65,Small Business,2025-04-05
+C01286,Customer 1286,Female,45,Consumer,2025-07-26
+C01287,Customer 1287,Male,31,Small Business,2024-02-08
+C01288,Customer 1288,Male,59,Consumer,2024-10-01
+C01289,Customer 1289,Male,30,Small Business,2024-07-14
+C01290,Customer 1290,Female,31,Consumer,2025-03-30
+C01291,Customer 1291,Male,57,Consumer,2025-08-22
+C01292,Customer 1292,Female,60,Consumer,2024-06-15
+C01293,Customer 1293,Female,34,Consumer,2025-07-15
+C01294,Customer 1294,Male,53,Consumer,2025-02-27
+C01295,Customer 1295,Male,62,Corporate,2025-08-24
+C01296,Customer 1296,Male,56,Consumer,2024-02-29
+C01297,Customer 1297,Male,18,Consumer,2025-12-24
+C01298,Customer 1298,Male,49,Consumer,2024-11-13
+C01299,Customer 1299,Female,26,Consumer,2024-07-23
+C01300,Customer 1300,Male,58,Corporate,2024-05-13
+C01301,Customer 1301,Male,21,Consumer,2025-12-19
+C01302,Customer 1302,Female,65,Corporate,2025-10-06
+C01303,Customer 1303,Female,26,Small Business,2024-04-05
+C01304,Customer 1304,Male,38,Consumer,2024-11-20
+C01305,Customer 1305,Female,29,Consumer,2025-06-19
+C01306,Customer 1306,Female,57,Consumer,2025-03-07
+C01307,Customer 1307,Female,36,Consumer,2024-05-17
+C01308,Customer 1308,Female,53,Consumer,2024-09-20
+C01309,Customer 1309,Male,21,Small Business,2024-09-25
+C01310,Customer 1310,Female,39,Corporate,2024-07-29
+C01311,Customer 1311,Male,61,Consumer,2025-12-02
+C01312,Customer 1312,Female,62,Corporate,2024-05-28
+C01313,Customer 1313,Female,28,Consumer,2025-05-30
+C01314,Customer 1314,Male,36,Corporate,2025-10-27
+C01315,Customer 1315,Male,37,Consumer,2025-08-03
+C01316,Customer 1316,Female,45,Consumer,2025-08-06
+C01317,Customer 1317,Female,43,Small Business,2024-04-25
+C01318,Customer 1318,Male,23,Corporate,2024-04-07
+C01319,Customer 1319,Female,54,Small Business,2025-07-25
+C01320,Customer 1320,Female,28,Consumer,2025-06-29
+C01321,Customer 1321,Male,33,Corporate,2025-06-25
+C01322,Customer 1322,Male,58,Consumer,2024-11-01
+C01323,Customer 1323,Male,51,Consumer,2025-01-17
+C01324,Customer 1324,Female,37,Consumer,2024-01-12
+C01325,Customer 1325,Male,61,Consumer,2024-07-31
+C01326,Customer 1326,Female,36,Consumer,2025-01-20
+C01327,Customer 1327,Male,45,Consumer,2024-04-01
+C01328,Customer 1328,Female,29,Corporate,2024-04-04
+C01329,Customer 1329,Male,26,Corporate,2024-02-03
+C01330,Customer 1330,Male,41,Small Business,2024-06-02
+C01331,Customer 1331,Female,45,Consumer,2025-12-25
+C01332,Customer 1332,Male,56,Small Business,2025-05-23
+C01333,Customer 1333,Female,36,Consumer,2025-11-23
+C01334,Customer 1334,Female,60,Consumer,2024-07-06
+C01335,Customer 1335,Female,47,Corporate,2025-03-13
+C01336,Customer 1336,Female,21,Consumer,2025-10-13
+C01337,Customer 1337,Male,53,Consumer,2024-09-13
+C01338,Customer 1338,Female,45,Consumer,2025-04-24
+C01339,Customer 1339,Female,36,Consumer,2025-05-20
+C01340,Customer 1340,Male,40,Corporate,2025-08-30
+C01341,Customer 1341,Male,32,Consumer,2025-12-08
+C01342,Customer 1342,Female,47,Consumer,2025-03-25
+C01343,Customer 1343,Male,45,Consumer,2025-03-01
+C01344,Customer 1344,Female,39,Consumer,2025-09-26
+C01345,Customer 1345,Other,31,Corporate,2025-05-14
+C01346,Customer 1346,Female,37,Small Business,2024-09-21
+C01347,Customer 1347,Male,41,Corporate,2025-04-05
+C01348,Customer 1348,Male,40,Small Business,2025-02-04
+C01349,Customer 1349,Male,32,Consumer,2024-06-15
+C01350,Customer 1350,Male,45,Corporate,2025-01-11
+C01351,Customer 1351,Female,28,Consumer,2025-03-31
+C01352,Customer 1352,Female,42,Consumer,2025-10-21
+C01353,Customer 1353,Male,23,Corporate,2025-02-27
+C01354,Customer 1354,Male,40,Consumer,2024-04-30
+C01355,Customer 1355,Female,55,Small Business,2025-12-21
+C01356,Customer 1356,Male,57,Corporate,2025-02-25
+C01357,Customer 1357,Female,51,Small Business,2024-07-28
+C01358,Customer 1358,Male,53,Consumer,2025-07-04
+C01359,Customer 1359,Female,21,Consumer,2024-10-07
+C01360,Customer 1360,Male,34,Corporate,2024-09-27
+C01361,Customer 1361,Female,49,Consumer,2025-09-04
+C01362,Customer 1362,Male,56,Consumer,2025-09-25
+C01363,Customer 1363,Female,45,Corporate,2025-01-17
+C01364,Customer 1364,Male,58,Small Business,2024-09-29
+C01365,Customer 1365,Male,31,Corporate,2025-09-22
+C01366,Customer 1366,Female,25,Consumer,2024-05-06
+C01367,Customer 1367,Male,22,Consumer,2025-06-29
+C01368,Customer 1368,Male,45,Consumer,2025-03-02
+C01369,Customer 1369,Male,49,Consumer,2025-09-15
+C01370,Customer 1370,Male,31,Consumer,2024-11-03
+C01371,Customer 1371,Male,55,Consumer,2025-08-30
+C01372,Customer 1372,Female,53,Consumer,2024-01-12
+C01373,Customer 1373,Male,35,Consumer,2025-07-07
+C01374,Customer 1374,Female,29,Consumer,2024-02-20
+C01375,Customer 1375,Female,53,Consumer,2025-04-13
+C01376,Customer 1376,Male,50,Consumer,2024-05-22
+C01377,Customer 1377,Female,26,Corporate,2025-12-04
+C01378,Customer 1378,Female,30,Consumer,2025-07-15
+C01379,Customer 1379,Female,41,Small Business,2024-03-17
+C01380,Customer 1380,Male,42,Consumer,2025-10-13
+C01381,Customer 1381,Male,25,Consumer,2024-07-02
+C01382,Customer 1382,Male,63,Consumer,2025-02-02
+C01383,Customer 1383,Female,36,Consumer,2024-03-03
+C01384,Customer 1384,Other,36,Consumer,2024-03-18
+C01385,Customer 1385,Female,20,Corporate,2024-06-25
+C01386,Customer 1386,Male,60,Small Business,2025-01-25
+C01387,Customer 1387,Female,29,Consumer,2025-01-31
+C01388,Customer 1388,Male,65,Consumer,2025-09-16
+C01389,Customer 1389,Female,41,Corporate,2024-04-30
+C01390,Customer 1390,Male,59,Consumer,2025-07-01
+C01391,Customer 1391,Female,26,Consumer,2024-01-05
+C01392,Customer 1392,Female,25,Corporate,2024-07-31
+C01393,Customer 1393,Male,56,Consumer,2024-05-07
+C01394,Customer 1394,Male,57,Corporate,2024-03-31
+C01395,Customer 1395,Female,44,Consumer,2025-03-02
+C01396,Customer 1396,Male,19,Consumer,2025-10-19
+C01397,Customer 1397,Female,63,Consumer,2025-05-01
+C01398,Customer 1398,Female,36,Corporate,2025-09-15
+C01399,Customer 1399,Female,62,Consumer,2025-03-07
+C01400,Customer 1400,Male,59,Corporate,2024-02-09
+C01401,Customer 1401,Male,58,Corporate,2024-09-09
+C01402,Customer 1402,Male,51,Corporate,2025-08-24
+C01403,Customer 1403,Female,50,Consumer,2024-02-02
+C01404,Customer 1404,Male,43,Consumer,2024-03-11
+C01405,Customer 1405,Male,19,Consumer,2025-08-31
+C01406,Customer 1406,Male,36,Consumer,2024-02-16
+C01407,Customer 1407,Female,53,Small Business,2025-12-01
+C01408,Customer 1408,Male,56,Consumer,2025-07-07
+C01409,Customer 1409,Female,44,Small Business,2025-04-30
+C01410,Customer 1410,Female,52,Consumer,2025-01-26
+C01411,Customer 1411,Female,19,Consumer,2024-03-06
+C01412,Customer 1412,Female,40,Consumer,2024-10-29
+C01413,Customer 1413,Female,42,Corporate,2025-08-12
+C01414,Customer 1414,Female,60,Consumer,2025-10-21
+C01415,Customer 1415,Male,32,Consumer,2024-11-22
+C01416,Customer 1416,Female,29,Corporate,2025-09-04
+C01417,Customer 1417,Female,34,Consumer,2025-07-20
+C01418,Customer 1418,Female,26,Consumer,2024-02-12
+C01419,Customer 1419,Female,44,Consumer,2025-03-28
+C01420,Customer 1420,Female,48,Consumer,2025-03-25
+C01421,Customer 1421,Female,56,Consumer,2025-01-31
+C01422,Customer 1422,Male,64,Consumer,2025-07-17
+C01423,Customer 1423,Male,21,Consumer,2025-10-11
+C01424,Customer 1424,Male,29,Consumer,2025-02-05
+C01425,Customer 1425,Male,32,Consumer,2024-08-21
+C01426,Customer 1426,Male,29,Consumer,2025-12-18
+C01427,Customer 1427,Male,57,Consumer,2025-12-04
+C01428,Customer 1428,Male,24,Consumer,2025-05-15
+C01429,Customer 1429,Female,19,Consumer,2025-04-12
+C01430,Customer 1430,Male,59,Consumer,2024-03-17
+C01431,Customer 1431,Female,64,Consumer,2024-10-20
+C01432,Customer 1432,Female,28,Small Business,2024-05-24
+C01433,Customer 1433,Male,33,Corporate,2025-01-10
+C01434,Customer 1434,Male,42,Consumer,2025-08-26
+C01435,Customer 1435,Male,43,Consumer,2024-06-12
+C01436,Customer 1436,Female,65,Consumer,2025-12-28
+C01437,Customer 1437,Male,37,Corporate,2024-04-04
+C01438,Customer 1438,Male,18,Consumer,2024-03-12
+C01439,Customer 1439,Female,38,Consumer,2025-12-12
+C01440,Customer 1440,Female,44,Consumer,2024-03-14
+C01441,Customer 1441,Male,42,Consumer,2025-06-20
+C01442,Customer 1442,Male,42,Consumer,2025-07-11
+C01443,Customer 1443,Male,62,Small Business,2024-08-28
+C01444,Customer 1444,Male,56,Small Business,2024-02-16
+C01445,Customer 1445,Male,30,Consumer,2024-08-13
+C01446,Customer 1446,Female,35,Consumer,2024-02-20
+C01447,Customer 1447,Female,50,Consumer,2025-05-05
+C01448,Customer 1448,Female,37,Consumer,2025-10-10
+C01449,Customer 1449,Female,38,Consumer,2025-12-28
+C01450,Customer 1450,Male,26,Consumer,2025-08-07
+C01451,Customer 1451,Female,30,Corporate,2025-07-19
+C01452,Customer 1452,Female,53,Small Business,2025-10-05
+C01453,Customer 1453,Female,58,Corporate,2025-07-16
+C01454,Customer 1454,Female,55,Corporate,2025-04-19
+C01455,Customer 1455,Male,32,Consumer,2025-12-28
+C01456,Customer 1456,Male,24,Consumer,2024-08-23
+C01457,Customer 1457,Male,25,Consumer,2024-10-28
+C01458,Customer 1458,Male,36,Consumer,2025-10-23
+C01459,Customer 1459,Female,42,Consumer,2024-08-15
+C01460,Customer 1460,Male,60,Corporate,2024-08-06
+C01461,Customer 1461,Female,61,Consumer,2024-04-21
+C01462,Customer 1462,Female,18,Consumer,2024-07-20
+C01463,Customer 1463,Male,51,Consumer,2025-03-09
+C01464,Customer 1464,Male,32,Small Business,2025-10-09
+C01465,Customer 1465,Female,27,Consumer,2024-04-09
+C01466,Customer 1466,Female,44,Consumer,2025-05-12
+C01467,Customer 1467,Male,19,Consumer,2025-07-13
+C01468,Customer 1468,Male,34,Corporate,2025-10-15
+C01469,Customer 1469,Female,44,Small Business,2025-07-01
+C01470,Customer 1470,Male,31,Consumer,2024-04-23
+C01471,Customer 1471,Female,46,Small Business,2024-12-22
+C01472,Customer 1472,Male,40,Consumer,2025-11-26
+C01473,Customer 1473,Male,56,Corporate,2025-10-25
+C01474,Customer 1474,Male,26,Consumer,2025-03-23
+C01475,Customer 1475,Male,20,Consumer,2025-12-04
+C01476,Customer 1476,Male,43,Corporate,2025-05-02
+C01477,Customer 1477,Male,30,Consumer,2024-02-17
+C01478,Customer 1478,Other,51,Consumer,2025-10-29
+C01479,Customer 1479,Male,22,Corporate,2024-05-02
+C01480,Customer 1480,Male,45,Small Business,2024-10-04
+C01481,Customer 1481,Male,65,Consumer,2024-06-22
+C01482,Customer 1482,Male,22,Corporate,2025-06-09
+C01483,Customer 1483,Female,32,Corporate,2024-01-22
+C01484,Customer 1484,Male,58,Consumer,2025-04-12
+C01485,Customer 1485,Female,43,Small Business,2025-09-22
+C01486,Customer 1486,Male,26,Consumer,2025-07-29
+C01487,Customer 1487,Other,28,Corporate,2024-08-12
+C01488,Customer 1488,Male,54,Consumer,2025-10-16
+C01489,Customer 1489,Female,59,Consumer,2024-09-21
+C01490,Customer 1490,Male,35,Consumer,2025-05-11
+C01491,Customer 1491,Male,40,Consumer,2025-01-04
+C01492,Customer 1492,Female,55,Small Business,2024-02-19
+C01493,Customer 1493,Female,26,Small Business,2024-01-03
+C01494,Customer 1494,Female,27,Consumer,2024-05-13
+C01495,Customer 1495,Male,55,Consumer,2025-11-13
+C01496,Customer 1496,Female,26,Consumer,2025-11-27
+C01497,Customer 1497,Female,54,Consumer,2024-10-26
+C01498,Customer 1498,Female,41,Consumer,2025-12-08
+C01499,Customer 1499,Male,65,Small Business,2024-02-06
+C01500,Customer 1500,Female,19,Corporate,2025-12-07
+C01501,Customer 1501,Female,63,Consumer,2024-06-17
+C01502,Customer 1502,Female,28,Consumer,2024-01-27
+C01503,Customer 1503,Male,19,Consumer,2025-07-07
+C01504,Customer 1504,Male,52,Consumer,2024-10-06
+C01505,Customer 1505,Female,43,Consumer,2024-08-01
+C01506,Customer 1506,Male,58,Consumer,2025-07-08
+C01507,Customer 1507,Female,23,Consumer,2024-08-31
+C01508,Customer 1508,Male,21,Consumer,2025-07-03
+C01509,Customer 1509,Male,45,Corporate,2024-05-22
+C01510,Customer 1510,Female,60,Consumer,2024-03-03
+C01511,Customer 1511,Male,37,Consumer,2024-08-25
+C01512,Customer 1512,Male,56,Consumer,2025-03-20
+C01513,Customer 1513,Female,61,Small Business,2024-06-13
+C01514,Customer 1514,Female,59,Consumer,2024-04-14
+C01515,Customer 1515,Female,42,Consumer,2025-06-30
+C01516,Customer 1516,Male,51,Consumer,2024-12-26
+C01517,Customer 1517,Male,43,Consumer,2024-11-10
+C01518,Customer 1518,Female,50,Consumer,2024-06-23
+C01519,Customer 1519,Male,45,Corporate,2024-01-13
+C01520,Customer 1520,Male,43,Consumer,2024-02-08
+C01521,Customer 1521,Male,38,Consumer,2025-05-12
+C01522,Customer 1522,Female,49,Consumer,2024-02-28
+C01523,Customer 1523,Female,54,Corporate,2024-06-29
+C01524,Customer 1524,Female,62,Small Business,2025-10-26
+C01525,Customer 1525,Female,47,Corporate,2024-09-08
+C01526,Customer 1526,Male,22,Consumer,2025-06-27
+C01527,Customer 1527,Male,46,Corporate,2024-09-07
+C01528,Customer 1528,Male,33,Corporate,2025-11-11
+C01529,Customer 1529,Male,19,Consumer,2025-08-22
+C01530,Customer 1530,Male,21,Consumer,2024-12-09
+C01531,Customer 1531,Male,46,Corporate,2025-05-14
+C01532,Customer 1532,Male,63,Consumer,2024-10-28
+C01533,Customer 1533,Female,42,Corporate,2025-11-20
+C01534,Customer 1534,Female,39,Consumer,2024-09-18
+C01535,Customer 1535,Male,22,Consumer,2025-09-02
+C01536,Customer 1536,Male,50,Consumer,2025-03-25
+C01537,Customer 1537,Female,20,Corporate,2025-04-14
+C01538,Customer 1538,Female,58,Small Business,2024-09-13
+C01539,Customer 1539,Female,57,Consumer,2025-08-30
+C01540,Customer 1540,Male,65,Consumer,2025-06-28
+C01541,Customer 1541,Female,31,Consumer,2025-08-18
+C01542,Customer 1542,Male,25,Consumer,2025-08-07
+C01543,Customer 1543,Male,32,Small Business,2024-04-25
+C01544,Customer 1544,Male,56,Consumer,2025-10-01
+C01545,Customer 1545,Male,28,Consumer,2025-09-06
+C01546,Customer 1546,Male,60,Consumer,2024-06-26
+C01547,Customer 1547,Male,25,Small Business,2025-12-17
+C01548,Customer 1548,Female,20,Consumer,2025-01-19
+C01549,Customer 1549,Male,28,Corporate,2024-08-22
+C01550,Customer 1550,Male,54,Consumer,2024-06-12
+C01551,Customer 1551,Male,46,Consumer,2024-09-23
+C01552,Customer 1552,Male,35,Corporate,2024-01-28
+C01553,Customer 1553,Male,49,Consumer,2025-05-19
+C01554,Customer 1554,Male,49,Corporate,2025-05-31
+C01555,Customer 1555,Male,44,Consumer,2025-05-02
+C01556,Customer 1556,Female,42,Corporate,2025-02-04
+C01557,Customer 1557,Female,22,Corporate,2024-09-21
+C01558,Customer 1558,Male,30,Corporate,2025-06-12
+C01559,Customer 1559,Female,43,Consumer,2025-09-28
+C01560,Customer 1560,Female,24,Corporate,2024-03-04
+C01561,Customer 1561,Other,40,Small Business,2024-10-06
+C01562,Customer 1562,Female,23,Consumer,2025-12-27
+C01563,Customer 1563,Female,55,Consumer,2025-09-21
+C01564,Customer 1564,Female,22,Corporate,2025-12-26
+C01565,Customer 1565,Female,22,Consumer,2024-05-13
+C01566,Customer 1566,Male,48,Corporate,2024-12-05
+C01567,Customer 1567,Male,28,Corporate,2024-04-05
+C01568,Customer 1568,Male,34,Consumer,2025-09-24
+C01569,Customer 1569,Male,33,Consumer,2025-01-13
+C01570,Customer 1570,Male,28,Consumer,2024-06-26
+C01571,Customer 1571,Male,54,Consumer,2024-03-06
+C01572,Customer 1572,Female,51,Small Business,2025-06-22
+C01573,Customer 1573,Female,29,Consumer,2025-08-15
+C01574,Customer 1574,Female,50,Consumer,2025-10-03
+C01575,Customer 1575,Male,52,Corporate,2025-12-10
+C01576,Customer 1576,Male,43,Consumer,2025-08-17
+C01577,Customer 1577,Female,45,Corporate,2025-07-28
+C01578,Customer 1578,Female,62,Consumer,2025-08-15
+C01579,Customer 1579,Other,39,Consumer,2025-12-30
+C01580,Customer 1580,Female,36,Consumer,2024-12-04
+C01581,Customer 1581,Female,43,Corporate,2025-07-07
+C01582,Customer 1582,Male,58,Corporate,2025-08-21
+C01583,Customer 1583,Male,52,Corporate,2024-03-25
+C01584,Customer 1584,Male,21,Small Business,2025-05-19
+C01585,Customer 1585,Female,40,Corporate,2024-09-04
+C01586,Customer 1586,Female,53,Corporate,2024-04-06
+C01587,Customer 1587,Male,28,Consumer,2024-05-04
+C01588,Customer 1588,Female,65,Small Business,2024-03-24
+C01589,Customer 1589,Male,56,Corporate,2025-10-17
+C01590,Customer 1590,Male,58,Small Business,2025-07-17
+C01591,Customer 1591,Male,21,Consumer,2024-03-15
+C01592,Customer 1592,Male,45,Consumer,2025-04-01
+C01593,Customer 1593,Female,43,Corporate,2025-04-27
+C01594,Customer 1594,Male,48,Consumer,2025-01-14
+C01595,Customer 1595,Female,58,Consumer,2025-03-18
+C01596,Customer 1596,Female,34,Small Business,2025-10-24
+C01597,Customer 1597,Male,43,Consumer,2025-01-13
+C01598,Customer 1598,Male,50,Consumer,2025-04-26
+C01599,Customer 1599,Female,54,Consumer,2025-02-20
+C01600,Customer 1600,Male,54,Consumer,2024-10-16
+C01601,Customer 1601,Female,34,Corporate,2025-10-12
+C01602,Customer 1602,Male,65,Small Business,2024-10-29
+C01603,Customer 1603,Female,18,Small Business,2025-08-06
+C01604,Customer 1604,Female,41,Corporate,2025-03-17
+C01605,Customer 1605,Male,47,Corporate,2025-05-15
+C01606,Customer 1606,Male,20,Consumer,2025-07-09
+C01607,Customer 1607,Female,39,Small Business,2025-06-21
+C01608,Customer 1608,Male,46,Consumer,2025-02-15
+C01609,Customer 1609,Male,47,Consumer,2025-03-25
+C01610,Customer 1610,Male,23,Small Business,2025-01-06
+C01611,Customer 1611,Male,31,Small Business,2024-09-04
+C01612,Customer 1612,Female,29,Consumer,2025-06-14
+C01613,Customer 1613,Female,48,Corporate,2025-10-03
+C01614,Customer 1614,Male,33,Consumer,2025-05-29
+C01615,Customer 1615,Female,45,Consumer,2025-07-17
+C01616,Customer 1616,Male,53,Consumer,2025-08-29
+C01617,Customer 1617,Male,56,Consumer,2024-09-25
+C01618,Customer 1618,Female,26,Consumer,2024-02-15
+C01619,Customer 1619,Other,61,Consumer,2024-09-03
+C01620,Customer 1620,Male,25,Consumer,2025-07-05
+C01621,Customer 1621,Male,19,Consumer,2025-08-18
+C01622,Customer 1622,Male,20,Small Business,2025-01-10
+C01623,Customer 1623,Female,27,Corporate,2025-07-22
+C01624,Customer 1624,Male,59,Small Business,2024-02-24
+C01625,Customer 1625,Male,27,Consumer,2025-04-15
+C01626,Customer 1626,Female,51,Corporate,2025-05-10
+C01627,Customer 1627,Male,38,Corporate,2025-01-05
+C01628,Customer 1628,Male,19,Consumer,2025-06-07
+C01629,Customer 1629,Male,39,Consumer,2024-12-24
+C01630,Customer 1630,Male,19,Consumer,2025-01-17
+C01631,Customer 1631,Male,40,Consumer,2025-03-16
+C01632,Customer 1632,Female,44,Consumer,2025-08-02
+C01633,Customer 1633,Female,43,Consumer,2024-06-30
+C01634,Customer 1634,Female,31,Consumer,2024-08-07
+C01635,Customer 1635,Other,54,Corporate,2024-11-01
+C01636,Customer 1636,Male,46,Consumer,2024-05-27
+C01637,Customer 1637,Male,30,Consumer,2024-08-31
+C01638,Customer 1638,Female,38,Corporate,2024-09-13
+C01639,Customer 1639,Male,23,Consumer,2024-08-17
+C01640,Customer 1640,Female,62,Consumer,2024-10-26
+C01641,Customer 1641,Female,54,Consumer,2025-01-03
+C01642,Customer 1642,Male,31,Consumer,2025-05-23
+C01643,Customer 1643,Male,50,Consumer,2024-08-09
+C01644,Customer 1644,Male,50,Consumer,2025-09-09
+C01645,Customer 1645,Male,47,Consumer,2024-12-15
+C01646,Customer 1646,Male,20,Small Business,2025-06-10
+C01647,Customer 1647,Male,60,Small Business,2024-03-24
+C01648,Customer 1648,Female,63,Consumer,2024-05-07
+C01649,Customer 1649,Female,64,Consumer,2024-11-27
+C01650,Customer 1650,Female,65,Consumer,2024-09-24
+C01651,Customer 1651,Male,62,Corporate,2024-12-28
+C01652,Customer 1652,Male,53,Corporate,2024-04-25
+C01653,Customer 1653,Male,20,Consumer,2024-12-11
+C01654,Customer 1654,Male,40,Consumer,2025-05-16
+C01655,Customer 1655,Female,29,Consumer,2025-06-15
+C01656,Customer 1656,Male,28,Small Business,2024-06-30
+C01657,Customer 1657,Male,57,Small Business,2024-09-08
+C01658,Customer 1658,Female,57,Consumer,2025-01-18
+C01659,Customer 1659,Male,43,Consumer,2025-01-13
+C01660,Customer 1660,Male,53,Consumer,2025-08-01
+C01661,Customer 1661,Male,24,Corporate,2024-10-11
+C01662,Customer 1662,Female,28,Small Business,2025-05-04
+C01663,Customer 1663,Female,59,Consumer,2025-10-07
+C01664,Customer 1664,Male,39,Consumer,2024-08-05
+C01665,Customer 1665,Female,44,Consumer,2025-08-23
+C01666,Customer 1666,Female,40,Consumer,2024-08-30
+C01667,Customer 1667,Female,27,Corporate,2024-09-01
+C01668,Customer 1668,Male,57,Consumer,2025-04-21
+C01669,Customer 1669,Male,54,Small Business,2025-03-29
+C01670,Customer 1670,Female,50,Consumer,2025-02-05
+C01671,Customer 1671,Male,34,Consumer,2024-06-17
+C01672,Customer 1672,Female,48,Consumer,2024-03-11
+C01673,Customer 1673,Female,63,Consumer,2025-10-25
+C01674,Customer 1674,Male,49,Consumer,2025-09-30
+C01675,Customer 1675,Female,41,Corporate,2025-10-09
+C01676,Customer 1676,Female,30,Consumer,2025-01-09
+C01677,Customer 1677,Female,43,Consumer,2025-10-07
+C01678,Customer 1678,Male,35,Consumer,2024-12-11
+C01679,Customer 1679,Female,47,Consumer,2024-02-25
+C01680,Customer 1680,Female,20,Small Business,2024-05-24
+C01681,Customer 1681,Female,27,Small Business,2024-07-17
+C01682,Customer 1682,Female,55,Consumer,2024-10-02
+C01683,Customer 1683,Female,36,Corporate,2025-11-16
+C01684,Customer 1684,Male,38,Corporate,2024-08-30
+C01685,Customer 1685,Male,44,Small Business,2025-03-23
+C01686,Customer 1686,Male,39,Consumer,2024-07-16
+C01687,Customer 1687,Male,54,Consumer,2025-04-14
+C01688,Customer 1688,Male,29,Consumer,2025-02-18
+C01689,Customer 1689,Female,54,Small Business,2024-04-19
+C01690,Customer 1690,Male,28,Corporate,2024-12-03
+C01691,Customer 1691,Female,35,Consumer,2024-03-17
+C01692,Customer 1692,Female,46,Consumer,2025-10-11
+C01693,Customer 1693,Male,60,Corporate,2025-05-29
+C01694,Customer 1694,Female,29,Small Business,2025-11-18
+C01695,Customer 1695,Female,46,Consumer,2025-10-01
+C01696,Customer 1696,Female,21,Corporate,2024-06-09
+C01697,Customer 1697,Male,21,Consumer,2025-05-31
+C01698,Customer 1698,Female,54,Consumer,2024-03-14
+C01699,Customer 1699,Female,52,Consumer,2025-12-02
+C01700,Customer 1700,Female,36,Corporate,2025-07-27
+C01701,Customer 1701,Female,47,Small Business,2025-05-11
+C01702,Customer 1702,Other,36,Consumer,2025-12-27
+C01703,Customer 1703,Male,31,Consumer,2025-09-10
+C01704,Customer 1704,Female,38,Consumer,2025-09-22
+C01705,Customer 1705,Male,32,Consumer,2024-03-14
+C01706,Customer 1706,Other,57,Consumer,2024-01-18
+C01707,Customer 1707,Male,37,Consumer,2025-12-02
+C01708,Customer 1708,Male,33,Consumer,2024-07-02
+C01709,Customer 1709,Female,43,Consumer,2024-11-07
+C01710,Customer 1710,Male,54,Consumer,2024-02-01
+C01711,Customer 1711,Female,31,Corporate,2025-03-30
+C01712,Customer 1712,Male,63,Consumer,2025-08-22
+C01713,Customer 1713,Female,40,Consumer,2025-09-06
+C01714,Customer 1714,Female,49,Small Business,2025-02-28
+C01715,Customer 1715,Male,63,Consumer,2025-04-27
+C01716,Customer 1716,Female,38,Consumer,2025-01-10
+C01717,Customer 1717,Male,27,Consumer,2024-11-21
+C01718,Customer 1718,Female,53,Consumer,2025-02-08
+C01719,Customer 1719,Female,18,Consumer,2025-11-14
+C01720,Customer 1720,Female,39,Consumer,2024-07-03
+C01721,Customer 1721,Male,65,Consumer,2024-12-09
+C01722,Customer 1722,Male,37,Consumer,2025-03-15
+C01723,Customer 1723,Female,50,Consumer,2025-02-20
+C01724,Customer 1724,Female,43,Consumer,2024-01-23
+C01725,Customer 1725,Male,28,Consumer,2024-07-28
+C01726,Customer 1726,Male,33,Consumer,2025-04-16
+C01727,Customer 1727,Male,43,Corporate,2025-05-21
+C01728,Customer 1728,Female,23,Consumer,2025-06-20
+C01729,Customer 1729,Male,37,Consumer,2025-12-24
+C01730,Customer 1730,Male,37,Consumer,2025-05-06
+C01731,Customer 1731,Female,58,Consumer,2025-02-27
+C01732,Customer 1732,Male,23,Small Business,2024-08-30
+C01733,Customer 1733,Female,58,Consumer,2024-09-27
+C01734,Customer 1734,Male,37,Consumer,2025-08-26
+C01735,Customer 1735,Female,49,Small Business,2024-12-08
+C01736,Customer 1736,Female,44,Corporate,2025-06-06
+C01737,Customer 1737,Female,32,Corporate,2024-03-31
+C01738,Customer 1738,Male,62,Consumer,2024-04-03
+C01739,Customer 1739,Female,28,Consumer,2024-06-06
+C01740,Customer 1740,Female,19,Corporate,2024-05-22
+C01741,Customer 1741,Male,54,Consumer,2025-03-19
+C01742,Customer 1742,Male,47,Consumer,2025-04-10
+C01743,Customer 1743,Male,60,Corporate,2025-02-11
+C01744,Customer 1744,Female,39,Consumer,2024-07-30
+C01745,Customer 1745,Female,18,Consumer,2025-02-24
+C01746,Customer 1746,Female,18,Consumer,2024-03-28
+C01747,Customer 1747,Female,38,Consumer,2024-12-11
+C01748,Customer 1748,Female,29,Consumer,2024-04-23
+C01749,Customer 1749,Male,62,Small Business,2024-02-26
+C01750,Customer 1750,Male,23,Consumer,2024-04-30
+C01751,Customer 1751,Female,60,Consumer,2024-03-22
+C01752,Customer 1752,Male,28,Consumer,2024-12-14
+C01753,Customer 1753,Female,23,Consumer,2025-02-02
+C01754,Customer 1754,Female,31,Consumer,2025-03-19
+C01755,Customer 1755,Male,24,Small Business,2024-11-16
+C01756,Customer 1756,Female,37,Consumer,2024-05-08
+C01757,Customer 1757,Male,33,Consumer,2024-01-16
+C01758,Customer 1758,Female,43,Small Business,2025-06-04
+C01759,Customer 1759,Female,43,Consumer,2025-12-18
+C01760,Customer 1760,Female,18,Small Business,2024-07-24
+C01761,Customer 1761,Male,23,Consumer,2024-05-29
+C01762,Customer 1762,Male,25,Consumer,2024-08-15
+C01763,Customer 1763,Male,27,Small Business,2024-06-05
+C01764,Customer 1764,Male,22,Consumer,2024-06-12
+C01765,Customer 1765,Male,33,Consumer,2024-12-27
+C01766,Customer 1766,Male,44,Consumer,2025-07-27
+C01767,Customer 1767,Other,32,Corporate,2025-06-03
+C01768,Customer 1768,Male,33,Consumer,2025-12-01
+C01769,Customer 1769,Male,40,Consumer,2024-09-17
+C01770,Customer 1770,Female,44,Corporate,2024-12-25
+C01771,Customer 1771,Female,33,Corporate,2024-10-04
+C01772,Customer 1772,Female,28,Consumer,2024-01-31
+C01773,Customer 1773,Female,37,Consumer,2024-10-10
+C01774,Customer 1774,Female,19,Consumer,2024-07-09
+C01775,Customer 1775,Female,41,Consumer,2024-12-15
+C01776,Customer 1776,Female,63,Consumer,2024-04-25
+C01777,Customer 1777,Female,37,Consumer,2025-06-25
+C01778,Customer 1778,Male,23,Consumer,2025-09-07
+C01779,Customer 1779,Male,51,Consumer,2025-12-02
+C01780,Customer 1780,Male,24,Corporate,2024-03-02
+C01781,Customer 1781,Male,27,Consumer,2024-03-26
+C01782,Customer 1782,Female,25,Small Business,2025-12-06
+C01783,Customer 1783,Male,60,Small Business,2025-09-11
+C01784,Customer 1784,Male,65,Consumer,2025-03-05
+C01785,Customer 1785,Male,45,Small Business,2024-08-22
+C01786,Customer 1786,Female,47,Small Business,2025-01-12
+C01787,Customer 1787,Male,48,Consumer,2025-01-26
+C01788,Customer 1788,Female,47,Corporate,2025-09-10
+C01789,Customer 1789,Female,44,Consumer,2025-01-21
+C01790,Customer 1790,Male,65,Corporate,2024-01-21
+C01791,Customer 1791,Female,53,Consumer,2025-05-25
+C01792,Customer 1792,Male,22,Consumer,2025-07-21
+C01793,Customer 1793,Male,36,Consumer,2024-08-05
+C01794,Customer 1794,Female,64,Small Business,2024-03-26
+C01795,Customer 1795,Female,37,Consumer,2024-04-13
+C01796,Customer 1796,Male,27,Consumer,2025-09-05
+C01797,Customer 1797,Female,59,Consumer,2024-11-22
+C01798,Customer 1798,Male,47,Consumer,2025-01-21
+C01799,Customer 1799,Female,45,Corporate,2025-12-02
+C01800,Customer 1800,Female,38,Corporate,2024-02-14
+C01801,Customer 1801,Female,23,Consumer,2024-05-30
+C01802,Customer 1802,Female,36,Consumer,2025-08-31
+C01803,Customer 1803,Male,38,Consumer,2025-01-29
+C01804,Customer 1804,Female,62,Consumer,2024-01-20
+C01805,Customer 1805,Female,32,Corporate,2025-05-28
+C01806,Customer 1806,Female,25,Corporate,2024-04-11
+C01807,Customer 1807,Male,38,Consumer,2025-07-24
+C01808,Customer 1808,Male,65,Consumer,2025-08-05
+C01809,Customer 1809,Male,41,Consumer,2025-08-24
+C01810,Customer 1810,Male,36,Consumer,2024-12-05
+C01811,Customer 1811,Male,50,Consumer,2024-07-14
+C01812,Customer 1812,Male,49,Corporate,2025-10-05
+C01813,Customer 1813,Female,32,Consumer,2025-02-11
+C01814,Customer 1814,Male,64,Small Business,2025-04-08
+C01815,Customer 1815,Female,46,Consumer,2024-04-09
+C01816,Customer 1816,Female,20,Consumer,2025-03-31
+C01817,Customer 1817,Female,37,Consumer,2025-02-27
+C01818,Customer 1818,Male,62,Consumer,2024-08-01
+C01819,Customer 1819,Male,36,Consumer,2025-07-13
+C01820,Customer 1820,Female,45,Consumer,2024-04-07
+C01821,Customer 1821,Female,47,Corporate,2025-06-09
+C01822,Customer 1822,Male,51,Consumer,2025-12-02
+C01823,Customer 1823,Female,59,Corporate,2025-02-18
+C01824,Customer 1824,Female,25,Corporate,2024-03-17
+C01825,Customer 1825,Female,42,Consumer,2025-02-07
+C01826,Customer 1826,Male,43,Consumer,2025-01-21
+C01827,Customer 1827,Male,25,Consumer,2025-02-07
+C01828,Customer 1828,Male,50,Consumer,2024-07-17
+C01829,Customer 1829,Female,23,Corporate,2025-04-02
+C01830,Customer 1830,Male,39,Small Business,2024-07-11
+C01831,Customer 1831,Male,33,Consumer,2025-02-11
+C01832,Customer 1832,Female,25,Consumer,2025-03-10
+C01833,Customer 1833,Male,57,Corporate,2025-04-16
+C01834,Customer 1834,Male,29,Corporate,2025-08-05
+C01835,Customer 1835,Male,30,Consumer,2025-10-06
+C01836,Customer 1836,Male,59,Corporate,2025-07-21
+C01837,Customer 1837,Male,60,Consumer,2025-08-03
+C01838,Customer 1838,Male,19,Consumer,2025-09-26
+C01839,Customer 1839,Female,31,Consumer,2024-06-26
+C01840,Customer 1840,Female,52,Consumer,2024-08-01
+C01841,Customer 1841,Male,55,Small Business,2025-01-24
+C01842,Customer 1842,Female,65,Consumer,2024-12-05
+C01843,Customer 1843,Male,44,Consumer,2025-05-27
+C01844,Customer 1844,Female,18,Consumer,2024-01-07
+C01845,Customer 1845,Male,59,Consumer,2024-04-11
+C01846,Customer 1846,Female,25,Consumer,2025-06-29
+C01847,Customer 1847,Male,23,Consumer,2025-08-23
+C01848,Customer 1848,Female,50,Corporate,2024-08-08
+C01849,Customer 1849,Male,46,Consumer,2024-08-14
+C01850,Customer 1850,Female,20,Corporate,2025-02-13
+C01851,Customer 1851,Male,26,Consumer,2024-12-14
+C01852,Customer 1852,Female,46,Corporate,2024-05-03
+C01853,Customer 1853,Male,30,Corporate,2024-12-31
+C01854,Customer 1854,Female,50,Consumer,2025-08-21
+C01855,Customer 1855,Female,37,Consumer,2025-06-16
+C01856,Customer 1856,Other,46,Small Business,2025-08-19
+C01857,Customer 1857,Male,40,Consumer,2025-04-14
+C01858,Customer 1858,Male,35,Corporate,2025-10-02
+C01859,Customer 1859,Male,34,Consumer,2024-07-01
+C01860,Customer 1860,Male,51,Consumer,2024-02-03
+C01861,Customer 1861,Female,42,Consumer,2024-03-24
+C01862,Customer 1862,Other,46,Small Business,2025-12-25
+C01863,Customer 1863,Other,45,Consumer,2025-04-12
+C01864,Customer 1864,Female,27,Corporate,2024-06-29
+C01865,Customer 1865,Female,61,Corporate,2025-09-15
+C01866,Customer 1866,Female,45,Consumer,2024-08-13
+C01867,Customer 1867,Female,52,Consumer,2025-03-12
+C01868,Customer 1868,Male,60,Consumer,2024-07-01
+C01869,Customer 1869,Female,62,Consumer,2024-03-10
+C01870,Customer 1870,Female,50,Corporate,2024-07-14
+C01871,Customer 1871,Male,55,Consumer,2024-06-15
+C01872,Customer 1872,Male,40,Consumer,2025-02-07
+C01873,Customer 1873,Other,53,Corporate,2024-01-16
+C01874,Customer 1874,Other,33,Consumer,2024-06-24
+C01875,Customer 1875,Female,52,Consumer,2025-02-18
+C01876,Customer 1876,Female,22,Consumer,2024-10-14
+C01877,Customer 1877,Male,61,Consumer,2025-04-09
+C01878,Customer 1878,Male,29,Corporate,2025-04-23
+C01879,Customer 1879,Female,49,Consumer,2025-12-05
+C01880,Customer 1880,Female,18,Consumer,2025-09-02
+C01881,Customer 1881,Male,25,Consumer,2024-06-15
+C01882,Customer 1882,Female,65,Consumer,2025-05-20
+C01883,Customer 1883,Male,58,Consumer,2025-04-02
+C01884,Customer 1884,Female,28,Consumer,2025-03-09
+C01885,Customer 1885,Male,24,Small Business,2025-08-06
+C01886,Customer 1886,Male,57,Corporate,2024-04-17
+C01887,Customer 1887,Male,65,Consumer,2024-09-30
+C01888,Customer 1888,Male,26,Corporate,2025-08-18
+C01889,Customer 1889,Female,49,Consumer,2025-10-13
+C01890,Customer 1890,Male,31,Small Business,2024-01-28
+C01891,Customer 1891,Male,53,Consumer,2024-12-10
+C01892,Customer 1892,Female,38,Consumer,2024-07-11
+C01893,Customer 1893,Female,24,Consumer,2024-05-02
+C01894,Customer 1894,Male,33,Consumer,2024-02-11
+C01895,Customer 1895,Male,43,Corporate,2025-01-27
+C01896,Customer 1896,Male,56,Consumer,2025-05-02
+C01897,Customer 1897,Female,19,Consumer,2025-01-22
+C01898,Customer 1898,Male,63,Consumer,2024-09-25
+C01899,Customer 1899,Male,49,Small Business,2025-07-17
+C01900,Customer 1900,Male,60,Corporate,2025-04-20
+C01901,Customer 1901,Female,62,Consumer,2025-10-25
+C01902,Customer 1902,Male,25,Consumer,2024-09-10
+C01903,Customer 1903,Female,22,Consumer,2024-06-23
+C01904,Customer 1904,Male,55,Small Business,2024-11-28
+C01905,Customer 1905,Female,27,Corporate,2025-01-05
+C01906,Customer 1906,Male,25,Consumer,2024-11-30
+C01907,Customer 1907,Male,40,Small Business,2025-08-30
+C01908,Customer 1908,Male,61,Consumer,2024-02-03
+C01909,Customer 1909,Female,56,Corporate,2025-01-20
+C01910,Customer 1910,Female,42,Consumer,2024-11-10
+C01911,Customer 1911,Male,27,Consumer,2024-06-02
+C01912,Customer 1912,Male,34,Consumer,2025-04-12
+C01913,Customer 1913,Female,51,Consumer,2025-08-07
+C01914,Customer 1914,Female,25,Small Business,2025-02-02
+C01915,Customer 1915,Male,43,Consumer,2024-03-03
+C01916,Customer 1916,Male,18,Corporate,2024-02-24
+C01917,Customer 1917,Female,33,Corporate,2024-11-03
+C01918,Customer 1918,Female,29,Corporate,2025-05-02
+C01919,Customer 1919,Female,50,Small Business,2024-08-16
+C01920,Customer 1920,Female,61,Consumer,2024-08-13
+C01921,Customer 1921,Male,25,Consumer,2025-09-19
+C01922,Customer 1922,Male,56,Consumer,2024-01-11
+C01923,Customer 1923,Male,49,Consumer,2024-02-28
+C01924,Customer 1924,Male,64,Small Business,2024-04-23
+C01925,Customer 1925,Male,61,Consumer,2025-12-19
+C01926,Customer 1926,Male,22,Consumer,2024-12-29
+C01927,Customer 1927,Male,53,Consumer,2024-04-25
+C01928,Customer 1928,Female,46,Consumer,2024-08-14
+C01929,Customer 1929,Male,23,Corporate,2025-12-08
+C01930,Customer 1930,Male,30,Consumer,2025-05-21
+C01931,Customer 1931,Female,62,Corporate,2024-06-12
+C01932,Customer 1932,Female,44,Corporate,2024-06-24
+C01933,Customer 1933,Female,34,Corporate,2024-02-24
+C01934,Customer 1934,Female,33,Consumer,2025-07-18
+C01935,Customer 1935,Female,58,Corporate,2024-04-10
+C01936,Customer 1936,Male,31,Consumer,2024-07-28
+C01937,Customer 1937,Male,25,Consumer,2024-09-11
+C01938,Customer 1938,Female,45,Corporate,2025-03-29
+C01939,Customer 1939,Male,65,Corporate,2025-03-18
+C01940,Customer 1940,Male,26,Consumer,2025-08-06
+C01941,Customer 1941,Male,30,Small Business,2024-08-05
+C01942,Customer 1942,Male,40,Consumer,2024-10-08
+C01943,Customer 1943,Male,27,Consumer,2024-10-10
+C01944,Customer 1944,Male,49,Small Business,2024-02-04
+C01945,Customer 1945,Female,30,Consumer,2025-06-22
+C01946,Customer 1946,Female,24,Corporate,2025-01-25
+C01947,Customer 1947,Male,30,Consumer,2024-12-13
+C01948,Customer 1948,Female,62,Corporate,2025-12-27
+C01949,Customer 1949,Male,62,Corporate,2024-05-10
+C01950,Customer 1950,Female,42,Corporate,2025-12-08
+C01951,Customer 1951,Female,37,Consumer,2025-05-11
+C01952,Customer 1952,Male,57,Corporate,2024-06-10
+C01953,Customer 1953,Female,27,Consumer,2025-05-10
+C01954,Customer 1954,Female,49,Small Business,2025-07-05
+C01955,Customer 1955,Female,50,Consumer,2024-09-21
+C01956,Customer 1956,Female,52,Consumer,2024-09-08
+C01957,Customer 1957,Female,28,Small Business,2025-09-01
+C01958,Customer 1958,Male,52,Consumer,2024-04-26
+C01959,Customer 1959,Female,47,Consumer,2024-01-10
+C01960,Customer 1960,Female,60,Corporate,2025-05-01
+C01961,Customer 1961,Female,26,Consumer,2025-10-23
+C01962,Customer 1962,Male,47,Consumer,2024-12-31
+C01963,Customer 1963,Female,57,Consumer,2024-04-08
+C01964,Customer 1964,Male,31,Consumer,2025-01-28
+C01965,Customer 1965,Female,53,Consumer,2024-07-02
+C01966,Customer 1966,Male,22,Consumer,2025-08-26
+C01967,Customer 1967,Female,52,Consumer,2025-03-22
+C01968,Customer 1968,Female,47,Consumer,2024-09-02
+C01969,Customer 1969,Male,27,Consumer,2025-03-31
+C01970,Customer 1970,Male,21,Corporate,2025-05-01
+C01971,Customer 1971,Male,53,Corporate,2025-05-10
+C01972,Customer 1972,Female,29,Consumer,2024-09-24
+C01973,Customer 1973,Female,41,Consumer,2025-02-20
+C01974,Customer 1974,Male,20,Small Business,2024-02-01
+C01975,Customer 1975,Male,64,Consumer,2024-10-21
+C01976,Customer 1976,Male,44,Consumer,2024-10-02
+C01977,Customer 1977,Male,62,Consumer,2025-01-25
+C01978,Customer 1978,Female,25,Consumer,2025-11-24
+C01979,Customer 1979,Female,27,Corporate,2025-11-27
+C01980,Customer 1980,Male,47,Small Business,2024-12-18
+C01981,Customer 1981,Female,47,Small Business,2025-04-16
+C01982,Customer 1982,Male,55,Consumer,2024-03-20
+C01983,Customer 1983,Female,62,Consumer,2024-12-18
+C01984,Customer 1984,Male,57,Consumer,2025-05-17
+C01985,Customer 1985,Female,24,Consumer,2025-05-13
+C01986,Customer 1986,Female,32,Consumer,2025-12-04
+C01987,Customer 1987,Male,61,Corporate,2024-12-06
+C01988,Customer 1988,Female,44,Consumer,2025-10-24
+C01989,Customer 1989,Other,59,Small Business,2025-12-15
+C01990,Customer 1990,Male,45,Consumer,2025-02-21
+C01991,Customer 1991,Male,20,Consumer,2024-03-07
+C01992,Customer 1992,Female,40,Small Business,2024-10-01
+C01993,Customer 1993,Male,57,Corporate,2025-07-12
+C01994,Customer 1994,Male,49,Consumer,2025-02-27
+C01995,Customer 1995,Male,24,Consumer,2025-11-14
+C01996,Customer 1996,Female,28,Consumer,2025-08-18
+C01997,Customer 1997,Male,59,Consumer,2024-02-16
+C01998,Customer 1998,Male,65,Consumer,2025-09-20
+C01999,Customer 1999,Female,54,Consumer,2024-09-17
+C02000,Customer 2000,Female,22,Consumer,2025-08-20
+C01073,Customer 1073,Male,26,Consumer,2024-11-26
+C01049,Customer 1049,Female,32,Consumer,2024-02-08
+C00205,Customer 205,Male,32,Small Business,2025-05-07
+C00695,Customer 695,Female,51,Corporate,2025-07-02
+C01759,Customer 1759,Female,43,Consumer,2025-12-18
+C00285,Customer 285,Female,23,Consumer,2025-02-13
+C01867,Customer 1867,Female,52,Consumer,2025-03-12
+C01927,Customer 1927,Male,53,Consumer,2024-04-25
+C01887,Customer 1887,Male,65,Consumer,2024-09-30
+C01725,Customer 1725,Male,28,Consumer,2024-07-28

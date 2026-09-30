@@ -1,0 +1,11 @@
+revenue_rank,product_id,product_name,category,sub_category,net_revenue,net_profit,transaction_count,negative_quantity_rows,profit_margin_pct
+1,P0098,Kids Product 98,Clothing,Kids,829112.99,319536.37,340,0,38.54
+2,P0097,Tables Product 97,Furniture,Tables,727002.16,210808.19,333,0,29.0
+3,P0083,Storage Product 83,Furniture,Storage,696707.32,183997.09,308,1,26.41
+4,P0099,Appliances Product 99,Home & Kitchen,Appliances,694713.08,228439.03,313,0,32.88
+5,P0050,Appliances Product 50,Home & Kitchen,Appliances,668335.4,202509.2,290,0,30.3
+6,P0059,Cookware Product 59,Home & Kitchen,Cookware,657900.64,196912.42,262,0,29.93
+7,P0080,Kids Product 80,Clothing,Kids,641466.95,161426.0,331,0,25.17
+8,P0067,Women Product 67,Clothing,Women,634806.49,144816.99,286,0,22.81
+9,P0012,Chairs Product 12,Furniture,Chairs,568744.91,196533.07,215,1,34.56
+10,P0094,Paper Product 94,Office Supplies,Paper,523043.31,78887.19,318,1,15.08

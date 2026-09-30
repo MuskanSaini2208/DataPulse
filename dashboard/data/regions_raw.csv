@@ -1,0 +1,21 @@
+region_id,state,city,region
+R001,Maharashtra,Maharashtra City,West
+R002,Gujarat,Gujarat City,West
+R003,Rajasthan,Rajasthan City,West
+R004,Goa,Goa City,West
+R005,Madhya Pradesh,Madhya Pradesh City,Central
+R006,Delhi,Delhi City,North
+R007,Punjab,Punjab City,North
+R008,Haryana,Haryana City,North
+R009,Uttar Pradesh,Uttar Pradesh City,North
+R010,Uttarakhand,Uttarakhand City,North
+R011,Karnataka,Karnataka City,South
+R012,Tamil Nadu,Tamil Nadu City,South
+R013,Kerala,Kerala City,South
+R014,Telangana,Telangana City,South
+R015,Andhra Pradesh,Andhra Pradesh City,South
+R016,West Bengal,West Bengal City,East
+R017,Odisha,Odisha City,East
+R018,Bihar,Bihar City,East
+R019,Jharkhand,Jharkhand City,East
+R020,Assam,Assam City,East

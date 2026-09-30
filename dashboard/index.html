@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive e-commerce business intelligence dashboard for the DataPulse project.">
+  <title>DataPulse - E-commerce Business Intelligence Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #60708a;
+      --line: #dce3ed;
+      --surface: #ffffff;
+      --canvas: #f4f7fb;
+      --blue: #1e5aa8;
+      --teal: #078c7a;
+      --gold: #c88910;
+      --red: #c8464b;
+      --violet: #7158a8;
+      --navy: #102a43;
+      --shadow: 0 8px 24px rgba(32, 52, 80, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--canvas);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    button, select { font: inherit; }
+
+    .app-shell { min-height: 100vh; }
+
+    .topbar {
+      background: var(--navy);
+      color: #ffffff;
+      padding: 24px clamp(18px, 4vw, 54px) 22px;
+    }
+
+    .topbar-inner, .dashboard-content {
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    h1, h2, h3, p { margin: 0; }
+
+    h1 { font-size: clamp(24px, 3vw, 34px); font-weight: 750; letter-spacing: 0; }
+    .subtitle { color: #cad8ea; margin-top: 5px; }
+    .model-status { color: #b9f1de; font-size: 12px; white-space: nowrap; }
+
+    .dashboard-content { padding: 22px clamp(18px, 4vw, 54px) 40px; }
+
+    .filters {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(126px, 1fr)) auto;
+      gap: 12px;
+      align-items: end;
+      padding: 16px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .filter-field { min-width: 0; }
+    .filter-field label { display: block; margin-bottom: 5px; color: var(--muted); font-size: 12px; font-weight: 700; }
+    select {
+      width: 100%;
+      height: 38px;
+      padding: 0 30px 0 10px;
+      color: var(--ink);
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+    }
+    select:focus { outline: 3px solid rgba(30, 90, 168, 0.18); border-color: var(--blue); }
+
+    .reset-button {
+      height: 38px;
+      padding: 0 15px;
+      color: #ffffff;
+      background: var(--blue);
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 700;
+    }
+    .reset-button:hover { background: #174b8b; }
+
+    .filter-summary { margin: 12px 0 18px; color: var(--muted); font-size: 12px; }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .kpi-card, .chart-panel, .notice {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .kpi-card { padding: 17px; min-height: 116px; border-top: 3px solid var(--blue); }
+    .kpi-card:nth-child(2) { border-top-color: var(--teal); }
+    .kpi-card:nth-child(3) { border-top-color: var(--gold); }
+    .kpi-card:nth-child(4) { border-top-color: var(--violet); }
+    .kpi-card:nth-child(5) { border-top-color: var(--red); }
+    .kpi-label { color: var(--muted); font-size: 12px; font-weight: 700; }
+    .kpi-value { margin-top: 8px; font-size: clamp(22px, 2.3vw, 31px); font-weight: 750; letter-spacing: 0; }
+    .kpi-detail { margin-top: 4px; color: var(--muted); font-size: 12px; }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .chart-panel { padding: 17px; min-width: 0; }
+    .chart-panel.wide { grid-column: span 7; }
+    .chart-panel.side { grid-column: span 5; }
+    .chart-panel.half { grid-column: span 6; }
+    .chart-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .chart-heading h2 { font-size: 16px; font-weight: 750; }
+    .chart-heading span { color: var(--muted); font-size: 12px; text-align: right; }
+    .chart-wrap { position: relative; height: 310px; }
+    .chart-wrap.tall { height: 350px; }
+
+    .quality-list { display: grid; gap: 0; margin-top: 12px; }
+    .quality-row {
+      display: grid;
+      grid-template-columns: 10px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .quality-row:last-child { border-bottom: 0; }
+    .quality-marker { width: 10px; height: 10px; border-radius: 50%; }
+    .quality-name { display: block; color: var(--ink); font-weight: 700; }
+    .quality-detail { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .quality-value { color: var(--ink); font-size: 22px; font-weight: 750; }
+
+    .notice {
+      display: flex;
+      gap: 12px;
+      margin-top: 18px;
+      padding: 14px 16px;
+      color: #31415c;
+      font-size: 12px;
+    }
+    .notice strong { color: var(--ink); }
+    .notice.error { border-color: #edb4b7; color: #8f2025; }
+    .notice.hidden { display: none; }
+    .footer-note { margin-top: 14px; color: var(--muted); font-size: 12px; }
+
+    @media (max-width: 1160px) {
+      .filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .reset-button { width: 100%; }
+      .kpi-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .chart-panel.wide, .chart-panel.side, .chart-panel.half { grid-column: span 6; }
+    }
+
+    @media (max-width: 720px) {
+      .topbar-inner { align-items: start; flex-direction: column; gap: 8px; }
+      .filters, .kpi-grid { grid-template-columns: 1fr; }
+      .chart-grid { grid-template-columns: 1fr; }
+      .chart-panel.wide, .chart-panel.side, .chart-panel.half { grid-column: 1; }
+      .chart-wrap, .chart-wrap.tall { height: 290px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div>
+          <h1>DataPulse - E-commerce Business Intelligence Dashboard</h1>
+          <p class="subtitle">Net sales, profitability, product performance, and regional trends</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="dashboard-content">
+      <section class="filters" aria-label="Dashboard filters">
+        <div class="filter-field"><label for="yearFilter">Year</label><select id="yearFilter"></select></div>
+        <div class="filter-field"><label for="quarterFilter">Quarter</label><select id="quarterFilter"></select></div>
+        <div class="filter-field"><label for="categoryFilter">Product category</label><select id="categoryFilter"></select></div>
+        <div class="filter-field"><label for="segmentFilter">Customer segment</label><select id="segmentFilter"></select></div>
+        <div class="filter-field"><label for="regionFilter">Region</label><select id="regionFilter"></select></div>
+        <div class="filter-field"><label for="returnFilter">Return status</label><select id="returnFilter"></select></div>
+        <button class="reset-button" id="resetFilters" type="button">Reset filters</button>
+      </section>
+      <p class="filter-summary" id="filterSummary">Preparing filtered view...</p>
+
+      <section class="kpi-grid" aria-label="Key performance indicators">
+        <article class="kpi-card"><p class="kpi-label">Total revenue</p><p class="kpi-value" id="kpiRevenue">-</p><p class="kpi-detail">Valid-date net sales</p></article>
+        <article class="kpi-card"><p class="kpi-label">Total profit</p><p class="kpi-value" id="kpiProfit">-</p><p class="kpi-detail">Valid-date net profit</p></article>
+        <article class="kpi-card"><p class="kpi-label">Profit margin</p><p class="kpi-value" id="kpiMargin">-</p><p class="kpi-detail">Profit divided by revenue</p></article>
+        <article class="kpi-card"><p class="kpi-label">Total orders</p><p class="kpi-value" id="kpiOrders">-</p><p class="kpi-detail">Distinct order IDs</p></article>
+        <article class="kpi-card"><p class="kpi-label">Total customers</p><p class="kpi-value" id="kpiCustomers">-</p><p class="kpi-detail">Distinct nonblank customer IDs</p></article>
+      </section>
+
+      <section class="chart-grid">
+        <article class="chart-panel wide">
+          <div class="chart-heading"><h2>Monthly revenue and profit</h2><span>Valid order dates only</span></div>
+          <div class="chart-wrap tall"><canvas id="monthlyChart"></canvas></div>
+        </article>
+        <article class="chart-panel side">
+          <div class="chart-heading"><h2>Revenue by category</h2><span>Mapped products only</span></div>
+          <div class="chart-wrap tall"><canvas id="categoryChart"></canvas></div>
+        </article>
+        <article class="chart-panel half">
+          <div class="chart-heading"><h2>Profit by region</h2><span>Net profit</span></div>
+          <div class="chart-wrap"><canvas id="regionChart"></canvas></div>
+        </article>
+        <article class="chart-panel half">
+          <div class="chart-heading"><h2>Top 10 products by revenue</h2><span>Mapped products only</span></div>
+          <div class="chart-wrap"><canvas id="topProductsChart"></canvas></div>
+        </article>
+        <article class="chart-panel wide">
+          <div class="chart-heading"><h2>High-revenue, low-margin products</h2><span>Top 25% revenue and bottom 25% margin</span></div>
+          <div class="chart-wrap"><canvas id="lowMarginChart"></canvas></div>
+        </article>
+        <article class="chart-panel side">
+          <div class="chart-heading"><h2>Data-quality context</h2><span>Current filtered view</span></div>
+          <div class="quality-list" id="qualityList"></div>
+        </article>
+      </section>
+
+      <section class="notice" id="dataNotice">
+        <div><strong>Data-quality note:</strong> Negative-quantity transactions remain in net revenue and profit. The <code>is_return</code> value is a flag, not confirmed evidence of a return. Product charts exclude orders without a matched product; KPI and monthly results retain all valid-date orders.</div>
+      </section>
+      <section class="notice error hidden" id="errorNotice" role="alert"></section>
+    </section>
+  </main>
+
+  <script>
+    const FILES = {
+      fact: "data/fact_orders.csv",
+      customers: "data/dim_customer.csv",
+      products: "data/dim_product.csv",
+      dates: "data/dim_date.csv",
+      regions: "data/regions_raw.csv",
+      topProducts: "data/top_products_by_revenue.csv",
+      regionalProfit: "data/regional_profit.csv",
+      monthlyProfit: "data/monthly_revenue_profit.csv",
+      lowMargin: "data/high_revenue_low_margin_products.csv"
+    };
+
+    const COLORS = {
+      blue: "#1e5aa8",
+      teal: "#078c7a",
+      gold: "#c88910",
+      red: "#c8464b",
+      violet: "#7158a8",
+      slate: "#60708a",
+      paleBlue: "#7fb1e9"
+    };
+
+    const app = { records: [], references: {}, charts: {} };
+    const selectIds = ["yearFilter", "quarterFilter", "categoryFilter", "segmentFilter", "regionFilter", "returnFilter"];
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let value = "";
+      let quoted = false;
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+        if (char === '"' && quoted && next === '"') { value += '"'; i += 1; }
+        else if (char === '"') quoted = !quoted;
+        else if (char === "," && !quoted) { row.push(value); value = ""; }
+        else if ((char === "\n" || char === "\r") && !quoted) {
+          if (char === "\r" && next === "\n") i += 1;
+          row.push(value);
+          if (row.some(cell => cell !== "")) rows.push(row);
+          row = [];
+          value = "";
+        } else value += char;
+      }
+      if (value !== "" || row.length) { row.push(value); rows.push(row); }
+      const headers = (rows.shift() || []).map(header => header.trim());
+      return rows.map(cells => Object.fromEntries(headers.map((header, index) => [header, (cells[index] || "").trim()])));
+    }
+
+    async function loadCsv(path) {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Could not load ${path} (${response.status}).`);
+      return parseCsv(await response.text());
+    }
+
+    const number = value => Number.parseFloat(value || "0") || 0;
+    const truthy = value => String(value).trim().toLowerCase() === "true";
+    const sum = (items, accessor) => items.reduce((total, item) => total + accessor(item), 0);
+    const compactNumber = value => new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 2 }).format(value);
+    const fullNumber = value => new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(value);
+    const percent = value => `${value.toFixed(2)}%`;
+    const monthShort = date => date.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+
+    function populateSelect(id, values, allLabel) {
+      const select = document.getElementById(id);
+      select.innerHTML = "";
+      const all = document.createElement("option");
+      all.value = "all";
+      all.textContent = allLabel;
+      select.appendChild(all);
+      values.forEach(value => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function prepareRecords(fact, customers, products, dates, regions) {
+      const customerMap = new Map(customers.map(row => [row.customer_id, row]));
+      const productMap = new Map(products.map(row => [row.product_id, row]));
+      const dateMap = new Map(dates.map(row => [row.date, row]));
+      const regionMap = new Map(regions.map(row => [row.region_id, row]));
+
+      return fact
+        .filter(row => truthy(row.is_order_date_valid) && row.order_date)
+        .map(row => {
+          const product = productMap.get(row.product_id);
+          const customer = customerMap.get(row.customer_id);
+          const date = dateMap.get(row.order_date);
+          const region = regionMap.get(row.region_id);
+          return {
+            orderId: row.order_id,
+            customerId: row.customer_id,
+            productId: row.product_id,
+            sales: number(row.sales_amount),
+            profit: number(row.profit),
+            isReturn: truthy(row.is_return),
+            date: new Date(`${row.order_date}T00:00:00`),
+            year: String(date ? date.year : row.order_date.slice(0, 4)),
+            month: Number(date ? date.month : row.order_date.slice(5, 7)),
+            quarter: date ? date.quarter : `Q${Math.ceil(Number(row.order_date.slice(5, 7)) / 3)}`,
+            productName: product ? product.product_name : "Unmapped product",
+            category: product ? product.category : "Unmapped product",
+            subCategory: product ? product.sub_category : "Unmapped product",
+            customerSegment: customer ? customer.customer_segment : "Unmapped customer",
+            region: region ? region.region : "Unmapped region",
+            hasProduct: Boolean(product),
+            hasCustomer: Boolean(customer)
+          };
+        });
+    }
+
+    function groupMetrics(records, fields) {
+      const groups = new Map();
+      records.forEach(record => {
+        const values = fields.map(field => record[field]);
+        const key = values.join("||");
+        if (!groups.has(key)) groups.set(key, { values, revenue: 0, profit: 0, orders: 0, returns: 0 });
+        const group = groups.get(key);
+        group.revenue += record.sales;
+        group.profit += record.profit;
+        group.orders += 1;
+        group.returns += record.isReturn ? 1 : 0;
+      });
+      return [...groups.values()].map(group => ({
+        ...Object.fromEntries(fields.map((field, index) => [field, group.values[index]])),
+        ...group,
+        margin: group.revenue ? (group.profit / group.revenue) * 100 : 0
+      }));
+    }
+
+    function quantile(values, q) {
+      const sorted = [...values].sort((a, b) => a - b);
+      if (!sorted.length) return 0;
+      const position = (sorted.length - 1) * q;
+      const base = Math.floor(position);
+      const remainder = position - base;
+      return sorted[base + 1] === undefined ? sorted[base] : sorted[base] + remainder * (sorted[base + 1] - sorted[base]);
+    }
+
+    function selectedFilters() {
+      return Object.fromEntries(selectIds.map(id => [id, document.getElementById(id).value]));
+    }
+
+    function filteredRecords() {
+      const filter = selectedFilters();
+      return app.records.filter(record =>
+        (filter.yearFilter === "all" || record.year === filter.yearFilter) &&
+        (filter.quarterFilter === "all" || record.quarter === filter.quarterFilter) &&
+        (filter.categoryFilter === "all" || record.category === filter.categoryFilter) &&
+        (filter.segmentFilter === "all" || record.customerSegment === filter.segmentFilter) &&
+        (filter.regionFilter === "all" || record.region === filter.regionFilter) &&
+        (filter.returnFilter === "all" || (filter.returnFilter === "return" ? record.isReturn : !record.isReturn))
+      );
+    }
+
+    function chart(id, config) {
+      if (app.charts[id]) app.charts[id].destroy();
+      app.charts[id] = new Chart(document.getElementById(id), config);
+    }
+
+    function commonOptions() {
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          legend: { labels: { boxWidth: 10, usePointStyle: true, font: { size: 12 } } },
+          tooltip: { backgroundColor: "#102a43", padding: 10 }
+        },
+        scales: {
+          x: { grid: { color: "#edf1f6" }, ticks: { color: "#60708a", maxRotation: 0 } },
+          y: { grid: { color: "#edf1f6" }, ticks: { color: "#60708a", callback: value => compactNumber(value) } }
+        }
+      };
+    }
+
+    function updateKpis(records) {
+      const revenue = sum(records, row => row.sales);
+      const profit = sum(records, row => row.profit);
+      const customers = new Set(records.filter(row => row.customerId).map(row => row.customerId)).size;
+      document.getElementById("kpiRevenue").textContent = compactNumber(revenue);
+      document.getElementById("kpiProfit").textContent = compactNumber(profit);
+      document.getElementById("kpiMargin").textContent = percent(revenue ? (profit / revenue) * 100 : 0);
+      document.getElementById("kpiOrders").textContent = new Intl.NumberFormat("en-US").format(new Set(records.map(row => row.orderId)).size);
+      document.getElementById("kpiCustomers").textContent = new Intl.NumberFormat("en-US").format(customers);
+    }
+
+    function updateCharts(records) {
+      const monthMetrics = groupMetrics(records, ["year", "month"])
+        .sort((a, b) => Number(a.year) - Number(b.year) || a.month - b.month);
+      const monthLabels = monthMetrics.map(row => monthShort(new Date(Number(row.year), row.month - 1, 1)));
+
+      chart("monthlyChart", {
+        type: "line",
+        data: {
+          labels: monthLabels,
+          datasets: [
+            { label: "Revenue", data: monthMetrics.map(row => row.revenue), borderColor: COLORS.blue, backgroundColor: COLORS.blue, tension: 0.25, pointRadius: 2, borderWidth: 2.5 },
+            { label: "Profit", data: monthMetrics.map(row => row.profit), borderColor: COLORS.teal, backgroundColor: COLORS.teal, tension: 0.25, pointRadius: 2, borderWidth: 2.5 }
+          ]
+        },
+        options: { ...commonOptions(), plugins: { ...commonOptions().plugins, tooltip: { ...commonOptions().plugins.tooltip, callbacks: { label: context => `${context.dataset.label}: ${fullNumber(context.raw)}` } } } }
+      });
+
+      const productRecords = records.filter(row => row.hasProduct);
+      const categories = groupMetrics(productRecords, ["category"]).sort((a, b) => b.revenue - a.revenue);
+      chart("categoryChart", {
+        type: "bar",
+        data: { labels: categories.map(row => row.category), datasets: [{ label: "Revenue", data: categories.map(row => row.revenue), backgroundColor: [COLORS.blue, COLORS.teal, COLORS.gold, COLORS.violet, COLORS.red], borderRadius: 4 }] },
+        options: { ...commonOptions(), plugins: { ...commonOptions().plugins, legend: { display: false }, tooltip: { ...commonOptions().plugins.tooltip, callbacks: { label: context => `Revenue: ${fullNumber(context.raw)}` } } } }
+      });
+
+      const regions = groupMetrics(records, ["region"]).sort((a, b) => b.profit - a.profit);
+      chart("regionChart", {
+        type: "bar",
+        data: { labels: regions.map(row => row.region), datasets: [{ label: "Profit", data: regions.map(row => row.profit), backgroundColor: COLORS.teal, borderRadius: 4 }] },
+        options: { ...commonOptions(), plugins: { ...commonOptions().plugins, legend: { display: false }, tooltip: { ...commonOptions().plugins.tooltip, callbacks: { label: context => `Profit: ${fullNumber(context.raw)}` } } } }
+      });
+
+      const products = groupMetrics(productRecords, ["productName", "productId"])
+        .sort((a, b) => b.revenue - a.revenue || a.productName.localeCompare(b.productName))
+        .slice(0, 10);
+      chart("topProductsChart", {
+        type: "bar",
+        data: { labels: products.map(row => row.productName), datasets: [{ label: "Revenue", data: products.map(row => row.revenue), backgroundColor: COLORS.violet, borderRadius: 4 }] },
+        options: { ...commonOptions(), indexAxis: "y", interaction: { mode: "nearest", intersect: true }, plugins: { ...commonOptions().plugins, legend: { display: false }, tooltip: { ...commonOptions().plugins.tooltip, callbacks: { label: context => `Revenue: ${fullNumber(context.raw)}` } } }, scales: { x: { grid: { color: "#edf1f6" }, ticks: { color: "#60708a", callback: value => compactNumber(value) } }, y: { grid: { display: false }, ticks: { color: "#60708a", callback: function(value) { return this.getLabelForValue(value); } } } } }
+      });
+
+      const productMetrics = groupMetrics(productRecords, ["productName", "productId", "category"]);
+      const marginEligible = productMetrics.filter(row => row.revenue > 0);
+      const revenueThreshold = quantile(marginEligible.map(row => row.revenue), 0.75);
+      const marginThreshold = quantile(marginEligible.map(row => row.margin), 0.25);
+      const lowMargin = marginEligible
+        .filter(row => row.revenue >= revenueThreshold && row.margin <= marginThreshold)
+        .sort((a, b) => b.revenue - a.revenue || a.margin - b.margin);
+      chart("lowMarginChart", {
+        type: "bar",
+        data: { labels: lowMargin.map(row => row.productName), datasets: [{ label: "Profit margin %", data: lowMargin.map(row => row.margin), backgroundColor: COLORS.gold, borderRadius: 4 }] },
+        options: { ...commonOptions(), indexAxis: "y", interaction: { mode: "nearest", intersect: true }, plugins: { ...commonOptions().plugins, legend: { display: false }, tooltip: { ...commonOptions().plugins.tooltip, callbacks: { label: context => { const row = lowMargin[context.dataIndex]; return [`Margin: ${percent(row.margin)}`, `Revenue: ${fullNumber(row.revenue)}`, `Profit: ${fullNumber(row.profit)}`]; } } } }, scales: { x: { grid: { color: "#edf1f6" }, ticks: { color: "#60708a", callback: value => `${value}%` } }, y: { grid: { display: false }, ticks: { color: "#60708a" } } } }
+      });
+
+      const quality = [
+        { label: "Valid-date orders", detail: "Included in dashboard metrics", value: records.length, color: COLORS.blue },
+        { label: "Negative quantity", detail: "Return indicator, not confirmed returns", value: records.filter(row => row.isReturn).length, color: COLORS.gold },
+        { label: "Unmapped product", detail: "Blank or unmatched product IDs", value: records.filter(row => !row.hasProduct).length, color: COLORS.red },
+        { label: "Unmapped customer", detail: "Blank or unmatched customer IDs", value: records.filter(row => !row.hasCustomer).length, color: COLORS.slate }
+      ];
+      document.getElementById("qualityList").innerHTML = quality.map(row => `
+        <div class="quality-row">
+          <span class="quality-marker" style="background: ${row.color}"></span>
+          <div><span class="quality-name">${row.label}</span><span class="quality-detail">${row.detail}</span></div>
+          <strong class="quality-value">${new Intl.NumberFormat("en-US").format(row.value)}</strong>
+        </div>
+      `).join("");
+    }
+
+    function updateDashboard() {
+      const records = filteredRecords();
+      updateKpis(records);
+      updateCharts(records);
+      const returns = records.filter(row => row.isReturn).length;
+      document.getElementById("filterSummary").textContent = `${new Intl.NumberFormat("en-US").format(records.length)} valid-date order rows in view, including ${new Intl.NumberFormat("en-US").format(returns)} negative-quantity rows.`;
+    }
+
+    function validateStageSix() {
+      const allRecords = app.records;
+      const productRecords = allRecords.filter(row => row.hasProduct);
+      const top = groupMetrics(productRecords, ["productName"])
+        .sort((a, b) => b.revenue - a.revenue)
+        .slice(0, 10);
+      const monthlyRevenue = sum(groupMetrics(allRecords, ["year", "month"]), row => row.revenue);
+      const referenceTop = app.references.topProducts;
+      const referenceMonthly = app.references.monthlyProfit;
+      const referenceRegional = app.references.regionalProfit;
+      const referenceLowMargin = app.references.lowMargin;
+      const topMatches = referenceTop.length === 10 && top.every((row, index) => row.productName === referenceTop[index].product_name && Math.abs(row.revenue - number(referenceTop[index].net_revenue)) < 0.02);
+      const monthlyMatches = Math.abs(monthlyRevenue - sum(referenceMonthly, row => number(row.net_revenue))) < 0.02;
+      const regions = groupMetrics(allRecords.filter(row => row.region), ["region"]).sort((a, b) => b.profit - a.profit);
+      const regionMatches = regions.length === referenceRegional.length && regions.every((row, index) => row.region === referenceRegional[index].region && Math.abs(row.profit - number(referenceRegional[index].net_profit)) < 0.02);
+      const products = groupMetrics(productRecords, ["productName"]).map(row => ({ ...row, margin: row.revenue === 0 ? null : row.profit / row.revenue * 100 }));
+      const revenueThreshold = quantile(products.map(row => row.revenue), 0.75);
+      const marginThreshold = quantile(products.filter(row => row.margin !== null).map(row => row.margin), 0.25);
+      const lowMargin = products.filter(row => row.revenue >= revenueThreshold && row.margin !== null && row.margin <= marginThreshold).sort((a, b) => b.revenue - a.revenue);
+      const lowMarginMatches = lowMargin.length === referenceLowMargin.length && lowMargin.every((row, index) => row.productName === referenceLowMargin[index].product_name && Math.abs(row.revenue - number(referenceLowMargin[index].net_revenue)) < 0.02);
+      if (!topMatches || !monthlyMatches || !regionMatches || !lowMarginMatches) throw new Error("Browser calculations do not reconcile to the Stage 6 analysis outputs.");
+    }
+
+    function showError(error) {
+      const notice = document.getElementById("errorNotice");
+      notice.textContent = `${error.message} Run this dashboard from a local web server or GitHub Pages; browsers block CSV fetch requests when index.html is opened directly.`;
+      notice.classList.remove("hidden");
+    }
+
+    async function initialize() {
+      try {
+        const [fact, customers, products, dates, regions, topProducts, regionalProfit, monthlyProfit, lowMargin] = await Promise.all([
+          loadCsv(FILES.fact), loadCsv(FILES.customers), loadCsv(FILES.products), loadCsv(FILES.dates), loadCsv(FILES.regions),
+          loadCsv(FILES.topProducts), loadCsv(FILES.regionalProfit), loadCsv(FILES.monthlyProfit), loadCsv(FILES.lowMargin)
+        ]);
+        app.records = prepareRecords(fact, customers, products, dates, regions);
+        app.references = { topProducts, regionalProfit, monthlyProfit, lowMargin };
+
+        populateSelect("yearFilter", [...new Set(app.records.map(row => row.year))].sort(), "All years");
+        populateSelect("quarterFilter", ["Q1", "Q2", "Q3", "Q4"], "All quarters");
+        populateSelect("categoryFilter", [...new Set(app.records.map(row => row.category))].sort(), "All categories");
+        populateSelect("segmentFilter", [...new Set(app.records.map(row => row.customerSegment))].sort(), "All customer segments");
+        populateSelect("regionFilter", [...new Set(app.records.map(row => row.region))].sort(), "All regions");
+        populateSelect("returnFilter", ["return", "non_return"], "All orders");
+
+        selectIds.forEach(id => document.getElementById(id).addEventListener("change", updateDashboard));
+        document.getElementById("resetFilters").addEventListener("click", () => {
+          selectIds.forEach(id => { document.getElementById(id).value = "all"; });
+          updateDashboard();
+        });
+
+        validateStageSix();
+        updateDashboard();
+      } catch (error) {
+        console.error(error);
+        showError(error);
+      }
+    }
+
+    initialize();
+  </script>
+</body>
+</html>

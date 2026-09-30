@@ -1,0 +1,101 @@
+product_id,product_name,category,sub_category,cost,selling_price
+P0001,Stationery Product 1,Furniture ,Stationery,115.78,163.24
+P0002,Paper Product 2,electronics,Paper,64.25,87.97
+P0003,Cookware Product 3,Home & Kitchen,Cookware,770.19,1193.82
+P0004,Accessories Product 4,Electronics,Accessories,686.46,1026.06
+P0005,Men Product 5,Clothing,Men,567.23,672.19
+P0006,Appliances Product 6,Home & Kitchen,Appliances,149.21,235.71
+P0007,Printers Product 7,Office Supplies,Printers,854.41,1457.27
+P0008,Printers Product 8,Office Supplies,Printers,128.3,208.12
+P0009,Accessories Product 9,Electronics,Accessories,785.27,941.01
+P0010,Appliances Product 10,electronics,Appliances,832.19,1005.24
+P0011,Stationery Product 11,electronics,Stationery,415.83,493.47
+P0012,Chairs Product 12,Furniture,Chairs,894.74,1450.14
+P0013,Printers Product 13,Office Supplies,Printers,263.26,323.43
+P0014,Women Product 14,Clothing,Women,413.45,470.73
+P0015,Decor Product 15,Home & Kitchen,Decor,897.03,1243.47
+P0016,Stationery Product 16,Office Supplies,Stationery,359.55,422.42
+P0017,Chairs Product 17,Furniture,Chairs,456.9,608.84
+P0018,Mobiles Product 18,Electronics,Mobiles,765.67,942.45
+P0019,Chairs Product 19,Furniture,Chairs,44.02,52.42
+P0020,Cookware Product 20,Home & Kitchen,Cookware,729.28,1187.83
+P0021,Cookware Product 21,Home & Kitchen,Cookware,368.8,442.39
+P0022,Women Product 22,electronics,Women,305.85,494.11
+P0023,Tables Product 23,Furniture,Tables,211.31,266.35
+P0024,Paper Product 24,Office Supplies,Paper,827.54,956.81
+P0025,Paper Product 25,Office Supplies,Paper,172.86,271.48
+P0026,Mobiles Product 26,Electronics,Mobiles,567.0,733.81
+P0027,Men Product 27,OFFICE SUPPLIES,Men,771.98,938.66
+P0028,Laptops Product 28,Electronics,Laptops,519.71,607.84
+P0029,Men Product 29,Clothing,Men,722.34,986.11
+P0030,Laptops Product 30,Electronics,Laptops,320.28,484.37
+P0031,Appliances Product 31,Home & Kitchen,Appliances,113.67,163.53
+P0032,Mobiles Product 32,Electronics,Mobiles,875.49,1140.5
+P0033,Paper Product 33,Office Supplies,Paper,488.41,709.39
+P0034,Chairs Product 34,Furniture,Chairs,502.05,611.76
+P0035,Printers Product 35,Office Supplies,Printers,753.29,1002.9
+P0036,Kids Product 36,Clothing,Kids,882.0,1048.47
+P0037,Mobiles Product 37,OFFICE SUPPLIES,Mobiles,544.29,636.93
+P0038,Stationery Product 38,Office Supplies,Stationery,242.44,407.88
+P0039,Stationery Product 39,Office Supplies,Stationery,688.78,901.56
+P0040,Appliances Product 40,Home & Kitchen,Appliances,778.2,884.44
+P0041,Chairs Product 41,Furniture,Chairs,334.3,496.05
+P0042,Mobiles Product 42,Electronics,Mobiles,69.02,87.96
+P0043,Paper Product 43,Office Supplies,Paper,14.82,20.6
+P0044,Laptops Product 44,Electronics,Laptops,265.87,386.64
+P0045,Storage Product 45,Furniture,Storage,244.48,312.94
+P0046,Men Product 46,Clothing,Men,861.63,1047.14
+P0047,Men Product 47,Clothing,Men,406.08,493.29
+P0048,Appliances Product 48,Home & Kitchen,Appliances,95.33,138.57
+P0049,Tables Product 49,OFFICE SUPPLIES,Tables,588.64,908.38
+P0050,Appliances Product 50,Home & Kitchen,Appliances,827.4,1253.56
+P0051,Decor Product 51,Home & Kitchen,Decor,651.66,843.61
+P0052,Men Product 52,Clothing,Men,386.04,453.69
+P0053,Stationery Product 53,Furniture ,Stationery,48.4,55.07
+P0054,Storage Product 54,Furniture,Storage,623.51,876.4
+P0055,Women Product 55,Clothing,Women,517.78,845.32
+P0056,Women Product 56,Clothing,Women,546.21,736.19
+P0057,Women Product 57,Clothing,Women,631.71,1078.55
+P0058,Tables Product 58,Furniture,Tables,359.06,477.75
+P0059,Cookware Product 59,Home & Kitchen,Cookware,891.66,1334.89
+P0060,Stationery Product 60,Furniture ,Stationery,340.64,453.73
+P0061,Laptops Product 61,Electronics,Laptops,479.76,753.65
+P0062,Cookware Product 62,Home & Kitchen,Cookware,186.59,282.03
+P0063,Accessories Product 63,Electronics,Accessories,243.66,351.53
+P0064,Cookware Product 64,Home & Kitchen,Cookware,757.41,902.56
+P0065,Men Product 65,Clothing,Men,442.51,510.54
+P0066,Mobiles Product 66,Electronics,Mobiles,711.51,851.71
+P0067,Women Product 67,Clothing,Women,890.89,1223.37
+P0068,Stationery Product 68,Office Supplies,Stationery,507.33,615.54
+P0069,Chairs Product 69,Furniture,Chairs,612.85,805.04
+P0070,Laptops Product 70,Electronics,Laptops,37.94,60.59
+P0071,Paper Product 71,Office Supplies,Paper,677.48,885.13
+P0072,Cookware Product 72,Home & Kitchen,Cookware,230.43,276.5
+P0073,Cookware Product 73,Home & Kitchen,Cookware,629.1,765.93
+P0074,Stationery Product 74,Office Supplies,Stationery,405.74,497.71
+P0075,Tables Product 75,Furniture,Tables,139.88,192.39
+P0076,Appliances Product 76,Home & Kitchen,Appliances,442.13,562.13
+P0077,Tables Product 77,Furniture,Tables,396.04,651.79
+P0078,Women Product 78,Clothing,Women,738.46,909.09
+P0079,Stationery Product 79,Office Supplies,Stationery,76.83,101.93
+P0080,Kids Product 80,Clothing,Kids,755.97,1064.41
+P0081,Women Product 81,Clothing,Women,167.77,193.1
+P0082,Accessories Product 82,Electronics,Accessories,158.66,186.08
+P0083,Storage Product 83,Furniture,Storage,867.53,1248.02
+P0084,Tables Product 84,Furniture,Tables,751.58,918.15
+P0085,Stationery Product 85,Office Supplies,Stationery,327.75,540.67
+P0086,Printers Product 86,Office Supplies,Printers,589.29,695.92
+P0087,Women Product 87,OFFICE SUPPLIES,Women,228.34,371.57
+P0088,Paper Product 88,Office Supplies,Paper,58.34,87.25
+P0089,Cookware Product 89,Home & Kitchen,Cookware,756.14,881.68
+P0090,Accessories Product 90,Electronics,Accessories,43.23,49.6
+P0091,Women Product 91,Clothing,Women,206.95,294.85
+P0092,Men Product 92,Clothing,Men,41.5,62.7
+P0093,Appliances Product 93,Home & Kitchen,Appliances,594.21,907.16
+P0094,Paper Product 94,Office Supplies,Paper,695.08,869.42
+P0095,Cookware Product 95,Home & Kitchen,Cookware,87.11,138.62
+P0096,Mobiles Product 96,Furniture ,Mobiles,459.15,778.97
+P0097,Tables Product 97,Furniture,Tables,802.79,1208.85
+P0098,Kids Product 98,Clothing,Kids,817.94,1403.73
+P0099,Appliances Product 99,Home & Kitchen,Appliances,718.45,1124.95
+P0100,Women Product 100,Clothing,Women,258.19,437.27

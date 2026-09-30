@@ -1,0 +1,3 @@
+product_id,product_name,category,sub_category,net_revenue,net_profit,transaction_count,negative_quantity_rows,profit_margin_pct,revenue_top_25pct_threshold,margin_bottom_25pct_threshold
+P0089,Cookware Product 89,Home & Kitchen,Cookware,500882.46,47954.6,303,0,9.57,408483.1625,12.787717590048626
+P0066,Mobiles Product 66,Electronics,Mobiles,416699.07,50271.42,276,0,12.06,408483.1625,12.787717590048626
