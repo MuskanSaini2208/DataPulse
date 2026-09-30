@@ -1,0 +1,15 @@
+section,metric,value,details
+lineage,source_file,Data\raw\orders_raw.csv,Raw source retained unchanged.
+row_counts,raw_rows,25050,Rows read from the raw orders extract.
+row_counts,exact_duplicates_removed,50,Removed only when every source column was identical.
+row_counts,cleaned_fact_rows,25000,Unique transactions retained in the cleaned fact table.
+validation,duplicate_order_ids_remaining,0,The current source grain is one row per order_id after exact de-duplication.
+dates,invalid_order_dates,10,Invalid values are blank in order_date; the original text remains in order_date_raw.
+customer_keys,missing_customer_ids,60,Blank IDs retained and flagged; no unknown customer was assigned.
+customer_keys,nonblank_customer_ids_not_in_dim_customer,0,Checked against Data/cleaned/dim_customer.csv.
+product_keys,missing_product_ids,35,Blank IDs retained and flagged; no unknown product was assigned.
+product_keys,nonblank_product_ids_not_in_dim_product,0,Checked against Data/cleaned/dim_product.csv.
+quantities,negative_quantity_rows,15,"is_return is an observation based on quantity < 0, not confirmation of a return."
+decision,duplicate_handling,exact_full_row_only,Conflicting duplicate order_id values stop the script instead of being removed.
+decision,invalid_date_handling,preserved_with_flag,No replacement date was inferred or created.
+decision,foreign_key_handling,preserved_with_flags,Missing or unmatched keys remain visible for later business review.

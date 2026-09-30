@@ -1,0 +1,13 @@
+product_id,issue_type,field,original_value,proposed_value,action,status
+P0001,category_subcategory_mismatch,category,Furniture ,Office Supplies,set category from sub_category 'Stationery' majority,resolved
+P0002,category_subcategory_mismatch,category,electronics,Office Supplies,set category from sub_category 'Paper' majority,resolved
+P0010,category_subcategory_mismatch,category,electronics,Home & Kitchen,set category from sub_category 'Appliances' majority,resolved
+P0011,category_subcategory_mismatch,category,electronics,Office Supplies,set category from sub_category 'Stationery' majority,resolved
+P0022,category_subcategory_mismatch,category,electronics,Clothing,set category from sub_category 'Women' majority,resolved
+P0027,category_subcategory_mismatch,category,OFFICE SUPPLIES,Clothing,set category from sub_category 'Men' majority,resolved
+P0037,category_subcategory_mismatch,category,OFFICE SUPPLIES,Electronics,set category from sub_category 'Mobiles' majority,resolved
+P0049,category_subcategory_mismatch,category,OFFICE SUPPLIES,Furniture,set category from sub_category 'Tables' majority,resolved
+P0053,category_subcategory_mismatch,category,Furniture ,Office Supplies,set category from sub_category 'Stationery' majority,resolved
+P0060,category_subcategory_mismatch,category,Furniture ,Office Supplies,set category from sub_category 'Stationery' majority,resolved
+P0087,category_subcategory_mismatch,category,OFFICE SUPPLIES,Clothing,set category from sub_category 'Women' majority,resolved
+P0096,category_subcategory_mismatch,category,Furniture ,Electronics,set category from sub_category 'Mobiles' majority,resolved
